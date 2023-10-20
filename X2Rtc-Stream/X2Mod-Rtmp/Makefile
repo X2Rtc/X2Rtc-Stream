@@ -7,7 +7,7 @@ CC := gcc
 AR := ar
 RANLIB := ranlib
 INCLUDE_FLAG = -include
-INCPATH = -I./ -I../ -I../../XUtils -I../../third_party/ -I../../third_party/abseil-cpp -I../../third_party/libuv/include -I../../third_party/jthread/src -I../../third_party/openssl/include -I../../third_party/ZLXKit/ZlToolKit/src -I../../third_party/ZLXKit/ZLMediaKit -I../../third_party/ZLXKit/ZLMediaKit/Rtp -I../../third_party/ZLXKit/ZLMediaKit/Rtmp
+INCPATH = -I./ -I../ -I../../XUtils -I../../third_party/ -I../../third_party/abseil-cpp -I../../third_party/libuv/include -I../../third_party/jthread/src -I../../third_party/openssl/include -I../../third_party/ZLXKit/ZLToolKit/src -I../../third_party/ZLXKit/ZLMediaKit -I../../third_party/ZLXKit/ZLMediaKit/Rtp -I../../third_party/ZLXKit/ZLMediaKit/Rtmp
 CCFLAGS += -Wall -fPIC -D_GNU_SOURCE -fvisibility=hidden -DNDEBUG -O2 -DWEBRTC_POSIX -D_CRT_SECURE_NO_WARNINGS -D__STDC_FORMAT_MACROS 
 
 

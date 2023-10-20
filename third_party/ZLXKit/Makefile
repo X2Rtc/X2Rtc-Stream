@@ -7,7 +7,7 @@ CC := gcc
 AR := ar
 RANLIB := ranlib
 INCLUDE_FLAG = -include
-INCPATH = -I./ -I./ZLMediaKit -I./ZlToolKit/src -I../libmpeg/include -I../libflv/include
+INCPATH = -I./ -I./ZLMediaKit -I./ZLToolKit/src -I../libmpeg/include -I../libflv/include
 CCFLAGS += -Wall -fPIC -D_GNU_SOURCE -fvisibility=hidden -DNDEBUG -O2 -DWEBRTC_POSIX -DWEBRTC_LINUX -DMS_LITTLE_ENDIAN -DLOGGING=1 -D__STDC_FORMAT_MACROS -DHAVE_MMSG_HDR -DHAVE_RECVMMSG_API -DHAVE_SENDMMSG_API 
 CCFLAGS += -DENABLE_HLS -DENABLE_RTPPROXY -DENABLE_MP4 -DENABLE_JPEG
 
