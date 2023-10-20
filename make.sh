@@ -13,11 +13,17 @@ fi
 
 #######################################################
 # Check GCC version
-gcc_version=`gcc --version | grep GCC | awk '{print $3}' | awk -F. '{print $1}'`
-if [[ $gcc_version -lt 5 ]]; then
-    echo "ERROR: GCC version < 5"
-	echo "GCC version must >= 5"
-    exit 1;
+which gcc >/dev/null 2>&1
+if [ $? -eq 0 ];then
+	gcc_version=`gcc --version | grep GCC | awk '{print $3}' | awk -F. '{print $1}'`
+	if [[ $gcc_version -lt 5 ]]; then
+		echo "ERROR: GCC version < 5"
+		echo "GCC version must >= 5"
+		exit 1;
+	fi
+else
+	echo "Please install GCC & version must >= 5!"
+	exit 1;
 fi
 
 #######################################################
