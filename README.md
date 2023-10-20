@@ -1,8 +1,10 @@
 # X2Rtc-Stream
 
+[![][x2rtc-banner]][x2rtc-website]
+
 ## Website and Documentation
 
-* [www.x2rtc.com][x2rtc-website]
+* [x2rtc.com][x2rtc-website]
 
 ## Design Goals
 
@@ -46,3 +48,7 @@ sh x2rtc.sh stop
 sh x2rtc.sh restart
 ```
 
+
+
+[x2rtc-website]: x2rtc
+[x2rtc-banner]: /art/x2rtc-banner.png
