@@ -230,16 +230,6 @@ fi
  fi 
 
 
- if [ "$1" = "all" ] || [ "$1" = "X2ModSrt" ] || [ "$1" = "clean" ]; then 
- 	# 
- 	cd X2Rtc-Stream/X2Mod-Talk 
- 	printf "Building X2ModSrt....\r\n" 
- 	make $2 
- 	cd - 
- 	printf "\r\n" 
- fi 
-
-
  if [ "$1" = "all" ] || [ "$1" = "X2NetUv" ] || [ "$1" = "clean" ]; then 
  	# 
  	cd X2Rtc-Stream/X2Net-Uv 
