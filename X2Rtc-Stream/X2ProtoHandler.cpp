@@ -6,8 +6,14 @@ extern X2ProtoHandler* createX2ProtoMpegTsHandler();
 extern X2ProtoHandler* createX2ProtoRtcHandler();
 extern X2ProtoHandler* createX2ProtoRtpHandler();
 extern X2ProtoHandler* createX2ProtoFlvHandler();
+#ifdef ENABLE_X2_TALK
 extern X2ProtoHandler* createX2ProtoTalkHandler();
-
+#else
+X2ProtoHandler* createX2ProtoTalkHandler()
+{
+	return NULL;
+}
+#endif
 X2ProtoHandler* createX2ProtoHandler(X2ProtoType eType)
 {
 	X2ProtoHandler* x2ProtoHandler = NULL;
