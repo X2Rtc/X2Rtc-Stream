@@ -1,4 +1,6 @@
 #!/bin/sh
+## X2Rtc build script
+## https://www.x2rtc.com
 CLEAN_CMD=0
 BasePath=$(pwd)
 if [ "$1" = "clean" ] || [ "$2" = "clean" ]; then
