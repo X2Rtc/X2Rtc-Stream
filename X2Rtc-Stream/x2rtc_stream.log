@@ -1,0 +1,1063 @@
+[2023-06-06 16:49:01.397] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:65512
+[2023-06-06 16:49:20.200] [[X2Rtc]] [error] [srt] srt_recvmsg rlt: -1 error: Success
+[2023-06-06 16:57:46.149] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:49225
+[2023-06-06 17:01:22.041] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:59965
+[2023-06-06 17:06:37.118] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:62506
+[2023-06-06 17:08:21.710] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:52581
+[2023-06-06 17:08:43.580] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:50209
+[2023-06-06 17:10:21.242] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:56049
+[2023-06-06 17:10:45.908] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:54573
+[2023-06-06 17:11:32.925] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:53227
+[2023-06-06 17:20:50.352] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:63757
+[2023-06-06 17:21:20.012] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:49353
+[2023-06-06 17:24:04.680] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:51456
+[2023-06-06 17:24:04.683] [[X2Rtc]] [error] [srt] srt_recvmsg rlt: -1 error: Non-blocking call failure: no data available for reading
+[2023-06-06 17:36:08.136] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:65027
+[2023-06-06 17:37:50.246] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:60514
+[2023-06-06 17:48:04.400] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:64052
+[2023-06-06 19:07:45.918] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:61001 streamId: #!::r=live/livestream,m=publish
+[2023-06-06 22:57:01.569] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:63504 streamId: #!::r=live/livestream,m=publish
+[2023-06-06 22:59:54.753] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:54254 streamId: #!::r=live/livestream,m=publish
+[2023-06-06 23:00:50.527] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:59103 streamId: #!::r=live/livestream,m=publish
+[2023-06-07 15:34:40.982] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:52300 streamId: #!::r=live/livestream,m=publish
+[2023-06-07 15:36:32.596] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:60786 streamId: #!::r=live/livestream,m=publish
+[2023-06-07 15:37:08.529] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:51894 streamId: #!::r=live/livestream,m=publish
+[2023-06-07 15:38:23.338] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:49695 streamId: #!::r=live/livestream,m=publish
+[2023-06-07 15:46:53.291] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:51933 streamId: #!::r=live/livestream,m=publish
+[2023-06-09 11:40:47.228] [[X2Rtc]] [error] Not found protoHandler for X2NetType : RTC
+[2023-06-09 11:41:59.854] [[X2Rtc]] [error] Not found protoHandler for X2NetType : RTC
+[2023-06-09 11:43:09.649] [[X2Rtc]] [error] Not found protoHandler for X2NetType : RTC
+[2023-06-09 11:45:54.688] [[X2Rtc]] [error] Not found protoHandler for X2NetType : RTC
+[2023-06-09 11:46:09.743] [[X2Rtc]] [warning] X2NetWebRtcConnection(nbmojeoh7xf6n0ho) lost connection at: 1686282369597
+[2023-06-09 11:52:01.938] [[X2Rtc]] [warning] X2NetWebRtcConnection(vveojqs5vlbin49w) lost connection at: 1686282721805
+[2023-06-09 11:57:54.288] [[X2Rtc]] [warning] X2NetWebRtcConnection(bfq872497t7ur0x4) lost connection at: 1686283074182
+[2023-06-09 13:41:31.531] [[X2Rtc]] [warning] X2NetWebRtcConnection::Init(fvmk3akdrlfa3050) got error: wrong port (not a positive number)
+[2023-06-09 14:03:56.594] [[X2Rtc]] [warning] X2NetWebRtcConnection(r76wzug9z132bwxo) lost connection at: 1686290636468
+[2023-06-09 14:10:15.655] [[X2Rtc]] [warning] X2NetWebRtcConnection(3v6wf2wxzd32n09s) lost connection at: 1686291015512
+[2023-06-09 16:14:05.695] [[X2Rtc]] [warning] X2NetWebRtcConnection(1ls6xse71bxwtmf2) lost connection at: 1686298445570
+[2023-06-09 16:38:40.169] [[X2Rtc]] [error] Not found protoHandler for X2NetType : RTMP
+[2023-06-09 17:15:56.903] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 17:17:11.993] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 17:20:20.203] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 17:20:43.789] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 17:29:05.187] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 17:37:45.741] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 17:38:38.853] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 17:45:36.587] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 17:46:11.009] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 17:46:42.868] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 18:14:06.851] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 18:21:56.576] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:55474 streamId: #!::r=live/livestream,m=publish
+[2023-06-09 18:21:56.578] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: livestream
+[2023-06-09 18:22:09.130] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:60719 streamId: #!::r=live/livestream,m=publish
+[2023-06-09 18:22:09.131] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: livestream
+[2023-06-09 18:22:46.199] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:52624 streamId: #!::r=live/livestream,m=publish
+[2023-06-09 18:24:54.305] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:60267 streamId: #!::r=live/livestream,m=publish
+[2023-06-09 18:24:54.306] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: livestream
+[2023-06-09 18:30:08.329] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:52425 streamId: #!::r=live/livestream,m=publish
+[2023-06-09 18:30:08.330] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: livestream
+[2023-06-09 18:32:05.098] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:56946 streamId: #!::r=live/livestream,m=publish
+[2023-06-09 18:32:05.100] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: livestream
+[2023-06-09 21:15:16.212] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 21:26:09.629] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 21:34:39.242] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 21:37:07.266] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-09 21:37:10.275] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 21:38:24.775] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 21:38:27.534] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-09 21:38:47.585] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-09 21:40:45.396] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-09 21:43:50.752] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 21:43:53.698] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-09 21:44:33.425] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-09 21:55:12.046] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 21:55:16.576] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-09 22:00:19.957] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 22:00:22.844] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-09 22:00:29.172] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-09 22:00:43.624] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-09 22:01:02.842] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-09 22:01:49.615] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 22:02:00.636] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-09 22:02:11.702] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-09 23:16:44.069] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:55368 streamId: #!::r=live/livestream,m=publish
+[2023-06-09 23:16:44.071] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: livestream
+[2023-06-09 23:17:02.524] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:49610 streamId: #!::r=live/123,m=publish
+[2023-06-09 23:17:02.525] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 23:17:07.134] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-09 23:20:16.790] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:64660 streamId: #!::r=live/123,m=publish
+[2023-06-09 23:20:16.792] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 23:20:30.398] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:64661 streamId: #!::r=live/123,m=publish
+[2023-06-09 23:20:30.399] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 23:20:55.675] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:59874 streamId: #!::r=live/123,m=publish
+[2023-06-09 23:20:55.676] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 23:20:55.808] [[X2Rtc]] [error] [srt] srt_recvmsg rlt: -1 error: Non-blocking call failure: no data available for reading
+[2023-06-09 23:21:12.930] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:52941 streamId: #!::r=live/123,m=publish
+[2023-06-09 23:21:12.931] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 23:21:13.076] [[X2Rtc]] [error] [srt] srt_recvmsg rlt: -1 error: Non-blocking call failure: no data available for reading
+[2023-06-09 23:22:30.665] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:52439 streamId: #!::r=live/123,m=publish
+[2023-06-09 23:22:30.667] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 23:26:44.024] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:63860 streamId: #!::r=live/123,m=publish
+[2023-06-09 23:26:44.026] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 23:27:43.870] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-09 23:27:47.101] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:49822 streamId: #!::r=live/123,m=publish
+[2023-06-09 23:27:47.102] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 23:29:45.823] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:63906 streamId: #!::r=live/123,m=publish
+[2023-06-09 23:29:45.825] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 23:32:22.063] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:55047 streamId: #!::r=live/123,m=publish
+[2023-06-09 23:32:22.065] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 23:32:26.279] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-09 23:55:56.086] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:56965 streamId: #!::r=live/123,m=publish
+[2023-06-09 23:55:56.088] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-09 23:56:06.085] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-10 13:20:42.007] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:53549 streamId: #!::r=live/123,m=publish
+[2023-06-10 13:20:42.009] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 13:29:46.109] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:63282 streamId: #!::r=live/123,m=publish
+[2023-06-10 13:29:46.111] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 13:30:27.342] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:64356 streamId: #!::r=live/123,m=publish
+[2023-06-10 13:30:27.343] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 13:42:40.646] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:62703 streamId: #!::r=live/123,m=publish
+[2023-06-10 13:42:40.649] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 13:45:38.021] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:52833 streamId: #!::r=live/123,m=publish
+[2023-06-10 13:45:38.023] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 13:46:00.954] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:51981 streamId: #!::r=live/123,m=publish
+[2023-06-10 13:46:00.955] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 13:46:04.601] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-10 13:46:20.100] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-10 13:47:48.719] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:51491 streamId: #!::r=live/123,m=publish
+[2023-06-10 13:47:48.720] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 13:55:48.136] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:65017 streamId: #!::r=live/123,m=publish
+[2023-06-10 13:55:48.138] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 13:57:24.121] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:63148 streamId: #!::r=live/123,m=publish
+[2023-06-10 13:57:24.122] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 14:01:51.258] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:63256 streamId: #!::r=live/123,m=publish
+[2023-06-10 14:01:51.260] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 14:54:41.354] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:57528 streamId: #!::r=live/123,m=publish
+[2023-06-10 14:54:41.356] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 14:54:56.734] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:64105 streamId: #!::r=live/123,m=publish
+[2023-06-10 14:54:56.735] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 14:55:23.509] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:50888 streamId: #!::r=live/123,m=publish
+[2023-06-10 14:55:23.510] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 14:58:29.760] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:62310 streamId: #!::r=live/123,m=publish
+[2023-06-10 14:58:29.762] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 14:59:45.821] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:51757 streamId: #!::r=live/123,m=publish
+[2023-06-10 14:59:45.822] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 15:00:37.561] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:56815 streamId: #!::r=live/123,m=publish
+[2023-06-10 15:00:37.563] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 15:02:45.661] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:60417 streamId: #!::r=live/123,m=publish
+[2023-06-10 15:02:45.663] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 15:03:54.627] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:52602 streamId: #!::r=live/123,m=publish
+[2023-06-10 15:03:54.629] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 15:06:47.129] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:50148 streamId: #!::r=live/123,m=publish
+[2023-06-10 15:06:47.131] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 15:07:03.227] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-10 15:08:23.959] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:49536 streamId: #!::r=live/123,m=publish
+[2023-06-10 15:08:23.961] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 15:08:27.610] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-10 15:09:32.605] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-10 15:10:20.054] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:57896 streamId: #!::r=live/123,m=publish
+[2023-06-10 15:10:20.056] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 15:11:12.568] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:64692 streamId: #!::r=live/123,m=publish
+[2023-06-10 15:11:12.571] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 15:11:16.253] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-10 15:14:59.390] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:53318 streamId: #!::r=live/123,m=publish
+[2023-06-10 15:14:59.391] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 15:23:31.190] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:51696 streamId: #!::r=live/123,m=publish
+[2023-06-10 15:23:31.191] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 15:23:46.702] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:63900 streamId: #!::r=live/123,m=publish
+[2023-06-10 15:23:46.703] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 18:59:35.036] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:65136 streamId: #!::r=live/123,m=publish
+[2023-06-10 18:59:35.039] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-10 18:59:39.122] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-10 23:01:53.618] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:55991 streamId: #!::r=live/123,m=publish
+[2023-06-10 23:01:53.619] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-12 08:54:16.422] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:57836 streamId: #!::r=live/123,m=publish
+[2023-06-12 08:54:16.423] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-12 08:54:20.319] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 13:43:50.109] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:56705 streamId: #!::r=live/123,m=publish
+[2023-06-12 13:43:50.111] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-12 13:50:53.579] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 13:50:56.797] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:58475 streamId: #!::r=live/123,m=publish
+[2023-06-12 13:50:56.798] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-12 13:51:03.532] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 13:53:17.637] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 13:53:37.755] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:55144 streamId: #!::r=live/123,m=publish
+[2023-06-12 13:53:39.678] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-12 13:57:25.638] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 13:57:26.977] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 13:58:23.558] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 13:59:42.640] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 14:00:29.040] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 14:00:37.294] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 14:03:14.675] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:62215 streamId: #!::r=live/123,m=publish
+[2023-06-12 14:03:14.677] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-12 14:03:19.188] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 14:07:53.190] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 14:07:57.603] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:61196 streamId: #!::r=live/123,m=publish
+[2023-06-12 14:07:57.604] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-12 14:08:15.630] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 14:10:58.480] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:57108 streamId: #!::r=live/123,m=publish
+[2023-06-12 14:10:58.481] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-12 14:11:05.647] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 14:12:49.037] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 14:13:47.615] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 14:15:39.732] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 14:15:51.564] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:64651 streamId: #!::r=live/123,m=publish
+[2023-06-12 14:15:51.565] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-12 14:15:56.434] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 14:18:23.560] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 14:19:28.476] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 15:35:19.777] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 15:35:32.710] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 15:35:32.712] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 15:36:16.463] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 15:36:16.464] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 17:52:19.294] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:57856 streamId: #!::r=live/123,m=publish
+[2023-06-12 17:52:19.297] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-12 17:53:27.034] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 17:54:11.867] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-12 19:06:22.239] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:59065 streamId: #!::r=live/123,m=publish
+[2023-06-12 19:06:22.241] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-12 19:08:38.248] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-14 15:29:02.131] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686727741892
+[2023-06-14 15:54:03.410] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686729243186
+[2023-06-14 16:03:46.799] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686729826546
+[2023-06-14 16:05:08.148] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686729895797
+[2023-06-14 16:18:09.003] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686730688684
+[2023-06-14 16:20:27.765] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686730827483
+[2023-06-14 16:20:57.774] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1686730857466
+[2023-06-14 16:23:01.508] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686730981296
+[2023-06-14 16:23:27.612] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1686731007295
+[2023-06-14 16:24:36.622] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686731076389
+[2023-06-14 16:25:37.646] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1686731137341
+[2023-06-14 16:28:28.233] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686731308044
+[2023-06-14 16:29:47.477] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1686731387247
+[2023-06-14 16:33:49.321] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686731628314
+[2023-06-14 16:34:08.346] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1686731648091
+[2023-06-14 16:35:32.000] [[X2Rtc]] [warning] X2NetWebRtcConnection(2) lost connection at: 1686731729824
+[2023-06-14 16:37:57.350] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686731877050
+[2023-06-14 16:39:53.864] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1686731973936
+[2023-06-14 16:40:22.212] [[X2Rtc]] [warning] X2NetWebRtcConnection(2) lost connection at: 1686732022000
+[2023-06-14 16:50:09.861] [[X2Rtc]] [warning] X2NetWebRtcConnection(3) lost connection at: 1686732462388
+[2023-06-14 17:10:53.781] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686733849451
+[2023-06-14 17:11:47.493] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1686733872980
+[2023-06-14 17:12:40.618] [[X2Rtc]] [warning] X2NetWebRtcConnection(2) lost connection at: 1686733959788
+[2023-06-14 17:16:38.006] [[X2Rtc]] [warning] X2NetWebRtcConnection(3) lost connection at: 1686734197913
+[2023-06-14 17:17:00.934] [[X2Rtc]] [warning] X2NetWebRtcConnection(4) lost connection at: 1686734220663
+[2023-06-14 17:18:18.738] [[X2Rtc]] [warning] X2NetWebRtcConnection(5) lost connection at: 1686734298468
+[2023-06-14 17:33:38.733] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686735218454
+[2023-06-14 18:11:47.504] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1686737507221
+[2023-06-14 18:15:01.246] [[X2Rtc]] [warning] X2NetWebRtcConnection(2) lost connection at: 1686737698391
+[2023-06-14 18:16:00.298] [[X2Rtc]] [warning] X2NetWebRtcConnection(3) lost connection at: 1686737722405
+[2023-06-14 18:16:52.911] [[X2Rtc]] [warning] X2NetWebRtcConnection(4) lost connection at: 1686737779933
+[2023-06-14 18:19:00.437] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686737939821
+[2023-06-15 09:19:21.580] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686791960875
+[2023-06-15 09:20:00.191] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1686791999952
+[2023-06-15 09:29:41.492] [[X2Rtc]] [warning] X2NetWebRtcConnection(2) lost connection at: 1686792576061
+[2023-06-15 10:39:12.283] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686796752072
+[2023-06-15 10:40:08.771] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686796808577
+[2023-06-15 10:46:18.616] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686797177859
+[2023-06-15 11:15:03.191] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1686798902618
+[2023-06-15 11:16:37.720] [[X2Rtc]] [warning] X2NetWebRtcConnection(2) lost connection at: 1686798967723
+[2023-06-15 11:31:03.545] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686799861551
+[2023-06-15 11:31:28.975] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1686799888611
+[2023-06-15 11:31:45.833] [[X2Rtc]] [warning] X2NetWebRtcConnection(2) lost connection at: 1686799905610
+[2023-06-15 11:33:00.264] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686799979983
+[2023-06-15 11:34:30.565] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686800069825
+[2023-06-15 15:46:58.711] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686815201057
+[2023-06-15 15:47:20.929] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1686815239463
+[2023-06-15 15:47:46.369] [[X2Rtc]] [warning] X2NetWebRtcConnection(2) lost connection at: 1686815265445
+[2023-06-15 15:49:36.347] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686815372726
+[2023-06-15 15:53:11.591] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 15:54:30.633] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686815670622
+[2023-06-15 16:05:01.922] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 16:05:12.448] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 16:06:15.965] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686816375952
+[2023-06-15 16:08:05.044] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 16:08:23.059] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686816503047
+[2023-06-15 16:08:44.573] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 16:18:56.456] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 16:18:59.330] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686817139330 resason: Dtls closed
+[2023-06-15 16:20:32.784] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 16:20:34.345] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1686817234345 resason: Dtls closed
+[2023-06-15 16:56:45.151] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 16:56:46.852] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686819406852 resason: Dtls closed
+[2023-06-15 16:57:54.763] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 16:57:57.854] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686819477854 resason: Dtls closed
+[2023-06-15 16:58:09.988] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 16:58:13.039] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1686819493039 resason: Dtls closed
+[2023-06-15 16:59:09.143] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 16:59:14.305] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686819554305 resason: Dtls closed
+[2023-06-15 16:59:32.280] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 16:59:41.962] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1686819581962 resason: Dtls closed
+[2023-06-15 17:00:53.539] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 17:00:58.571] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686819658571 resason: Dtls closed
+[2023-06-15 17:01:08.044] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 17:01:14.057] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1686819674057 resason: Dtls closed
+[2023-06-15 17:02:07.056] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 17:02:14.743] [[X2Rtc]] [warning] X2NetWebRtcConnection(2) lost connection at: 1686819734743 resason: Dtls closed
+[2023-06-15 17:05:24.273] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 17:05:29.115] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1686819929115 resason: Dtls closed
+[2023-06-15 17:05:39.900] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 17:05:43.792] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1686819943792 resason: Dtls closed
+[2023-06-15 20:28:21.093] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:50087 streamId: #!::r=live/123,m=publish
+[2023-06-15 20:28:21.096] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 20:28:26.252] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:29:41.981] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:63851 streamId: #!::r=live/123,m=publish
+[2023-06-15 20:29:41.984] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 20:29:44.727] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:29:54.207] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:30:16.327] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:31:30.296] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:31:32.289] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:31:39.362] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:32:00.963] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:36:06.402] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:60554 streamId: #!::r=live/123,m=publish
+[2023-06-15 20:36:06.405] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 20:36:10.212] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:36:37.291] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:36:42.865] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:36:48.717] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:36:54.581] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:36:57.526] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:37:03.501] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:37:05.199] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:37:14.883] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:37:37.681] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:37:39.192] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:38:03.802] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:38:32.514] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:38:37.542] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:38:52.110] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:39:00.552] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:39:07.477] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:39:43.195] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:55730 streamId: #!::r=live/123,m=publish
+[2023-06-15 20:39:43.196] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 20:39:48.187] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:44:57.177] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:44:59.355] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:50825 streamId: #!::r=live/123,m=publish
+[2023-06-15 20:44:59.356] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 20:45:11.083] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:48:34.119] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:54035 streamId: #!::r=live/123,m=publish
+[2023-06-15 20:48:34.120] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 20:49:55.939] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:50:12.213] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:52:04.821] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:60220 streamId: #!::r=live/123,m=publish
+[2023-06-15 20:52:04.822] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 20:54:38.967] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:57:03.031] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:57:30.195] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:58:33.703] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:58527 streamId: #!::r=live/123,m=publish
+[2023-06-15 20:58:33.705] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 20:58:38.714] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:58:43.828] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:58:46.846] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:58:53.010] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:58:53.400] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:58:59.626] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:59:11.597] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:59:11.607] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:59:22.412] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:59:23.736] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:59:31.504] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 20:59:35.587] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:01:44.910] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:04:42.208] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:59694 streamId: #!::r=live/123,m=publish
+[2023-06-15 21:04:42.218] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 21:04:46.806] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:04:49.720] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:05:00.155] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:05:03.960] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:05:09.599] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:05:15.087] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:05:25.958] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:05:30.463] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:05:44.013] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:06:58.454] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:07:31.483] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:08:23.694] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:60310 streamId: #!::r=live/123,m=publish
+[2023-06-15 21:08:23.703] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 21:08:29.627] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:08:44.601] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:08:58.348] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:09:02.852] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:10:28.486] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:10:53.537] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:11:49.013] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:11:53.899] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:64431 streamId: #!::r=live/123,m=publish
+[2023-06-15 21:11:53.910] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 21:12:05.931] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:13:30.825] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:58542 streamId: #!::r=live/123,m=publish
+[2023-06-15 21:13:30.831] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 21:14:31.718] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:50620 streamId: #!::r=live/123,m=publish
+[2023-06-15 21:14:31.727] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 21:14:36.264] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:14:46.573] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:14:53.075] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:14:57.731] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:15:01.247] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:15:25.446] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:17:28.200] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:54841 streamId: #!::r=live/123,m=publish
+[2023-06-15 21:17:28.203] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 21:17:35.268] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:17:39.822] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:17:44.878] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:17:55.625] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:17:59.746] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:18:11.176] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:18:16.675] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:18:23.773] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:18:38.881] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:18:50.279] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:22:34.147] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:52557 streamId: #!::r=live/123,m=publish
+[2023-06-15 21:22:34.154] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 21:22:37.243] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:22:48.801] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:22:53.647] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:22:56.729] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:23:00.676] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:23:23.477] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:23:28.476] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:23:36.335] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:23:46.605] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:24:47.776] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:24:51.241] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:24:55.483] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:25:06.016] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:25:15.929] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:25:38.197] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:25:57.719] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:25:59.934] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:26:02.142] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:26:09.172] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:26:14.571] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:26:20.247] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:26:30.811] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:26:33.120] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:26:36.291] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:26:42.123] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:49765 streamId: #!::r=live/123,m=publish
+[2023-06-15 21:26:42.125] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 21:26:46.384] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:26:48.634] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:26:50.423] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:26:52.090] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:26:54.249] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:26:56.804] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:26:59.738] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:27:02.249] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:27:05.335] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:27:08.292] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:27:36.540] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:27:41.884] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:27:45.462] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:27:50.029] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:27:55.934] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:28:35.881] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:29:04.971] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:29:12.305] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:30:12.253] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-15 21:30:29.716] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:59312 streamId: #!::r=live/123,m=publish
+[2023-06-15 21:30:29.735] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-15 21:30:34.614] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:34:16.381] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:58837 streamId: #!::r=live/123,m=publish
+[2023-06-16 08:34:16.397] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-16 08:35:38.423] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:57964 streamId: #!::r=live/123,m=publish
+[2023-06-16 08:35:38.437] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-16 08:38:03.523] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:59862 streamId: #!::r=live/123,m=publish
+[2023-06-16 08:38:03.531] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-16 08:40:05.112] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:55600 streamId: #!::r=live/123,m=publish
+[2023-06-16 08:40:05.127] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-16 08:40:31.431] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:40:34.450] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:41:36.637] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:53178 streamId: #!::r=live/123,m=publish
+[2023-06-16 08:41:36.649] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-16 08:41:41.753] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:43:09.373] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:56949 streamId: #!::r=live/123,m=publish
+[2023-06-16 08:43:09.384] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-16 08:43:33.980] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:44:31.734] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:44:35.018] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:44:48.802] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:44:54.352] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:45:08.710] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:45:23.228] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:45:34.715] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:45:47.956] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:45:59.991] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:46:07.484] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:46:10.332] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:46:41.125] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:46:48.081] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:56136 streamId: #!::r=live/123,m=publish
+[2023-06-16 08:46:48.091] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-16 08:46:50.563] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:46:59.335] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:50:25.010] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:50:33.293] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:52:45.425] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:49373 streamId: #!::r=live/123,m=publish
+[2023-06-16 08:52:45.437] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-16 08:52:52.875] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:52:52.906] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:53:10.065] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:53:25.472] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:53:37.244] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:53:43.487] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:58:40.473] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 08:58:52.700] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 09:01:39.960] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 09:03:29.462] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 09:03:29.494] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 09:03:33.882] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 09:04:08.680] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 09:06:29.705] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 09:07:34.785] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:56623 streamId: #!::r=live/123,m=publish
+[2023-06-16 09:07:34.806] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-16 09:07:40.417] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 09:08:15.214] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 09:09:47.184] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 09:13:03.037] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 09:26:53.197] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 09:38:59.605] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 09:39:10.183] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 09:39:20.912] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 09:39:32.436] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-16 09:39:43.873] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:25:52.367] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:53437 streamId: #!::r=live/123,m=publish
+[2023-06-19 12:25:52.375] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-19 12:25:57.615] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:26:33.684] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:27:12.176] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:27:37.577] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:28:19.379] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:28:28.492] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:28:33.345] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:55373 streamId: #!::r=live/123,m=publish
+[2023-06-19 12:28:33.355] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-19 12:28:39.249] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:28:50.530] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:29:10.621] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:29:23.276] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:29:34.363] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:29:49.738] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:30:00.708] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:30:14.702] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:30:27.046] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:30:45.237] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:30:56.760] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:51:09.841] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:50230 streamId: #!::r=live/123,m=publish
+[2023-06-19 12:51:09.849] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-19 12:51:14.541] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:51:22.867] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:51:29.501] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:51:36.515] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:51:48.242] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:51:58.816] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:52:05.245] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:52:10.443] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:52:21.062] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:52:31.783] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:52:40.989] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:52:42.413] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:52:54.042] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:53:04.837] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:53:13.027] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:53:15.510] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:53:26.221] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:53:36.799] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:53:45.474] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:53:47.811] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:53:58.135] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:53:58.576] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:54:09.370] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:54:21.010] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:54:32.624] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:54:43.154] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:54:53.944] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:55:05.678] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:55:12.759] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:56370 streamId: #!::r=live/123,m=publish
+[2023-06-19 12:55:12.769] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-19 12:57:57.611] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:60531 streamId: #!::r=live/123,m=publish
+[2023-06-19 12:57:57.613] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-19 12:58:01.371] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 12:59:37.569] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 13:00:11.233] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 13:00:17.942] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 13:01:44.916] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 13:02:04.529] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-19 13:02:35.251] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-19 13:04:17.623] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:58807 streamId: #!::r=live/123,m=publish
+[2023-06-19 13:04:17.632] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-19 13:08:57.557] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:61819 streamId: #!::r=live/123,m=publish
+[2023-06-19 13:08:57.559] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-19 13:09:03.721] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 13:09:14.261] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 13:09:39.232] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 13:09:55.360] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 13:10:11.035] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 13:10:37.799] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 13:11:12.449] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 13:12:40.536] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-19 21:56:14.177] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:54717 streamId: #!::r=live/123,m=publish
+[2023-06-19 21:56:14.186] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-19 21:57:49.963] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:63721 streamId: #!::r=live/123,m=publish
+[2023-06-19 21:57:49.974] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-19 22:00:05.737] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:50227 streamId: #!::r=live/123,m=publish
+[2023-06-19 22:00:05.744] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-19 22:00:29.034] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:59837 streamId: #!::r=live/123,m=publish
+[2023-06-19 22:00:29.045] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-19 22:01:02.740] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:64680 streamId: #!::r=live/123,m=publish
+[2023-06-19 22:01:02.748] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-19 22:04:27.099] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:55857 streamId: #!::r=live/123,m=publish
+[2023-06-19 22:04:27.107] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-19 22:08:11.960] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:59782 streamId: #!::r=live/123,m=publish
+[2023-06-19 22:08:11.962] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-19 22:15:41.632] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:58650 streamId: #!::r=live/123,m=publish
+[2023-06-19 22:15:41.642] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-19 22:15:58.700] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:55736 streamId: #!::r=live/123,m=publish
+[2023-06-19 22:15:58.711] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-19 22:17:12.385] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:59154 streamId: #!::r=live/123,m=publish
+[2023-06-19 22:17:12.389] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-19 22:18:49.131] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:51821 streamId: #!::r=live/123,m=publish
+[2023-06-19 22:18:49.136] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 08:55:13.162] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:53034 streamId: #!::r=live/123,m=publish
+[2023-06-20 08:55:13.170] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 08:55:19.856] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 08:55:29.738] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:60181 streamId: #!::r=live/123,m=publish
+[2023-06-20 08:55:29.752] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 08:56:07.446] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 08:58:13.067] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 08:59:12.473] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 08:59:23.018] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 08:59:33.692] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 08:59:43.052] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 08:59:44.885] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 08:59:49.278] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 09:01:25.938] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 09:02:54.155] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 09:04:34.909] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 09:04:38.335] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 09:06:14.706] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 09:06:17.321] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 09:08:15.091] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687223295091 resason: Dtls closed
+[2023-06-20 09:08:37.726] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 09:08:47.321] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 09:09:51.757] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687223391757 resason: Dtls closed
+[2023-06-20 09:10:36.594] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:56250 streamId: #!::r=live/123,m=publish
+[2023-06-20 09:14:20.482] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 09:14:24.565] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 09:14:57.600] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 09:14:57.691] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 09:16:31.924] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 09:17:36.521] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 09:17:45.863] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 09:17:57.221] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 09:22:35.549] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 09:22:41.254] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 09:23:07.590] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 09:24:19.950] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687224259950 resason: Dtls closed
+[2023-06-20 09:28:15.481] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 09:28:20.418] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687224500418 resason: Dtls closed
+[2023-06-20 09:32:02.428] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 09:32:06.951] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687224726951 resason: Dtls closed
+[2023-06-20 09:33:14.773] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 09:33:18.414] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 09:33:39.003] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1687224819003 resason: Dtls closed
+[2023-06-20 09:35:03.694] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 09:35:07.949] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687224907949 resason: Dtls closed
+[2023-06-20 09:38:29.671] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 09:38:36.516] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687225116516 resason: Dtls closed
+[2023-06-20 09:41:33.733] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 09:57:18.471] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 09:58:09.861] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 10:01:24.435] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 10:01:32.509] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 10:01:49.890] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 10:03:08.788] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 10:03:17.443] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687226597443 resason: Dtls closed
+[2023-06-20 10:06:04.821] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 10:06:07.306] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687226767306 resason: Dtls closed
+[2023-06-20 10:06:22.493] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 10:09:12.999] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 10:12:55.009] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 10:13:25.348] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687227205348 resason: Not recvied data by long time.
+[2023-06-20 10:13:41.482] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1687227221482 resason: Not recvied data by long time.
+[2023-06-20 10:16:28.601] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:61238 streamId: #!::r=live/123,m=publish
+[2023-06-20 10:16:28.614] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 10:19:38.775] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 10:19:40.569] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687227580568 resason: Dtls closed
+[2023-06-20 10:23:19.758] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 10:23:24.294] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687227804294 resason: Dtls closed
+[2023-06-20 10:24:24.780] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 10:25:36.675] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 10:25:47.505] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687227947505 resason: Dtls closed
+[2023-06-20 10:41:38.973] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 10:41:45.109] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687228905109 resason: Dtls closed
+[2023-06-20 10:43:41.870] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:60129 streamId: #!::r=live/123,m=publish
+[2023-06-20 10:43:41.888] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 10:51:04.988] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 10:51:13.502] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:58850 streamId: #!::r=live/123,m=publish
+[2023-06-20 10:51:13.523] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 10:52:50.345] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:54550 streamId: #!::r=live/123,m=publish
+[2023-06-20 10:52:50.359] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 10:52:53.210] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687229573210 resason: Not recvied data by long time.
+[2023-06-20 10:53:03.415] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 10:54:49.624] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:55741 streamId: #!::r=live/123,m=publish
+[2023-06-20 10:54:49.631] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 10:54:53.574] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 10:56:05.901] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:55926 streamId: #!::r=live/123,m=publish
+[2023-06-20 10:56:05.916] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 10:56:09.798] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 10:56:51.688] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687229811688 resason: Dtls closed
+[2023-06-20 10:56:52.750] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 10:58:49.329] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:60280 streamId: #!::r=live/123,m=publish
+[2023-06-20 10:58:49.340] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 10:58:53.033] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 10:59:46.402] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:52113 streamId: #!::r=live/123,m=publish
+[2023-06-20 10:59:46.422] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 10:59:48.643] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 10:59:51.179] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687229991179 resason: Not recvied data by long time.
+[2023-06-20 11:26:43.214] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:64027 streamId: #!::r=live/123,m=publish
+[2023-06-20 11:26:43.228] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 11:28:33.076] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:51744 streamId: #!::r=live/123,m=publish
+[2023-06-20 11:28:33.091] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 11:28:37.433] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 11:28:54.765] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687231734765 resason: Dtls closed
+[2023-06-20 11:38:54.165] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:63467 streamId: #!::r=live/123,m=publish
+[2023-06-20 11:38:54.183] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 11:50:10.194] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:61088 streamId: #!::r=live/123,m=publish
+[2023-06-20 11:50:10.211] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 11:55:03.358] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:56881 streamId: #!::r=live/123,m=publish
+[2023-06-20 11:55:03.365] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 11:55:06.847] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 11:56:20.866] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:65528 streamId: #!::r=live/123,m=publish
+[2023-06-20 11:56:20.878] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 11:59:04.366] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:52595 streamId: #!::r=live/123,m=publish
+[2023-06-20 11:59:04.376] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 11:59:25.417] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 11:59:31.605] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687233571605 resason: Dtls closed
+[2023-06-20 11:59:50.880] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:01:31.810] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:62866 streamId: #!::r=live/123,m=publish
+[2023-06-20 12:01:31.824] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 12:01:35.027] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:01:45.528] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687233705528 resason: Dtls closed
+[2023-06-20 12:03:27.286] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:05:01.640] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1687233901640 resason: Not recvied data by long time.
+[2023-06-20 12:10:54.224] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 12:10:59.563] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:11:10.915] [[X2Rtc]] [warning] X2NetWebRtcConnection(2) lost connection at: 1687234270915 resason: Dtls closed
+[2023-06-20 12:11:46.139] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 12:11:48.101] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:11:56.741] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687234316741 resason: Dtls closed
+[2023-06-20 12:13:15.933] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 12:13:19.006] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:13:28.932] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687234408932 resason: Dtls closed
+[2023-06-20 12:17:04.401] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 12:17:09.224] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:17:32.789] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1687234652789 resason: Dtls closed
+[2023-06-20 12:20:26.729] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 12:20:29.984] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:20:41.006] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1687234841006 resason: Dtls closed
+[2023-06-20 12:20:42.258] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687234842258 resason: Dtls closed
+[2023-06-20 12:21:45.752] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 12:21:51.971] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:21:54.614] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1687234914614 resason: Dtls closed
+[2023-06-20 12:21:55.694] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687234915694 resason: Dtls closed
+[2023-06-20 12:23:06.391] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 12:23:12.942] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687234992942 resason: Dtls closed
+[2023-06-20 12:24:35.412] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 12:24:37.944] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:24:49.059] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1687235089059 resason: Dtls closed
+[2023-06-20 12:27:30.138] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 12:27:33.157] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:27:37.318] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1687235257318 resason: Dtls closed
+[2023-06-20 12:27:38.790] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687235258790 resason: Dtls closed
+[2023-06-20 12:30:33.189] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 12:30:36.452] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:30:51.269] [[X2Rtc]] [warning] X2NetWebRtcConnection(2) lost connection at: 1687235451269 resason: Dtls closed
+[2023-06-20 12:32:51.651] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 12:33:02.937] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:35:00.125] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 12:35:05.476] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:37:44.851] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 12:37:49.957] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:38:07.983] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687235887983 resason: Dtls closed
+[2023-06-20 12:39:14.106] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:39:49.819] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 12:39:52.900] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:40:18.358] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687236018358 resason: Dtls closed
+[2023-06-20 12:43:54.620] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 12:43:57.723] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:46:42.322] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 12:46:46.799] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:46:59.626] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687236419626 resason: Dtls closed
+[2023-06-20 12:47:49.686] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 12:47:53.124] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:48:11.360] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687236491360 resason: Dtls closed
+[2023-06-20 12:49:10.334] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:51:01.426] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 12:51:06.649] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:51:47.156] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687236707156 resason: Dtls closed
+[2023-06-20 12:54:29.600] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 12:54:32.321] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:54:36.421] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1687236876421 resason: Dtls closed
+[2023-06-20 12:54:37.570] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:55:41.190] [[X2Rtc]] [warning] X2NetWebRtcConnection(2) lost connection at: 1687236941190 resason: Dtls closed
+[2023-06-20 12:56:16.049] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:56:54.720] [[X2Rtc]] [warning] X2NetWebRtcConnection(3) lost connection at: 1687237014720 resason: Dtls closed
+[2023-06-20 12:58:09.076] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 12:58:13.849] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:59:17.410] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 12:59:17.473] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:59:17.637] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687237157637 resason: Dtls closed
+[2023-06-20 12:59:23.495] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 12:59:32.536] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1687237172536 resason: Not recvied data by long time.
+[2023-06-20 13:00:07.342] [[X2Rtc]] [warning] X2NetWebRtcConnection(2) lost connection at: 1687237207342 resason: Dtls closed
+[2023-06-20 13:00:32.413] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 13:00:35.773] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 13:01:58.685] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687237318685 resason: Dtls closed
+[2023-06-20 13:02:21.368] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 13:02:23.851] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 13:03:19.065] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687237399065 resason: Dtls closed
+[2023-06-20 13:25:58.570] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 13:26:03.029] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 13:26:48.056] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687238808056 resason: Dtls closed
+[2023-06-20 13:27:28.918] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 13:27:31.452] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 13:27:46.904] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687238866904 resason: Dtls closed
+[2023-06-20 13:33:32.003] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 13:33:35.781] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 13:33:45.264] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687239225264 resason: Dtls closed
+[2023-06-20 13:34:28.860] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 13:39:11.671] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 13:39:15.127] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 13:39:54.823] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687239594823 resason: Dtls closed
+[2023-06-20 13:39:56.047] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 13:40:31.530] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1687239631530 resason: Dtls closed
+[2023-06-20 13:44:07.734] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 13:44:42.398] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:52369 streamId: #!::r=live/123,m=publish
+[2023-06-20 13:44:42.412] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 13:44:47.330] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 13:45:32.970] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:50523 streamId: #!::r=live/123,m=publish
+[2023-06-20 13:45:32.978] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 13:46:38.581] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:53215 streamId: #!::r=live/123,m=publish
+[2023-06-20 13:46:38.597] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 13:46:44.702] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 13:46:48.734] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687240008734 resason: Not recvied data by long time.
+[2023-06-20 13:46:49.242] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1687240009242 resason: Dtls closed
+[2023-06-20 13:47:58.374] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:57791 streamId: #!::r=live/123,m=publish
+[2023-06-20 13:47:58.391] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 13:48:02.427] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 13:48:13.197] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687240093197 resason: Dtls closed
+[2023-06-20 13:49:04.864] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 13:49:35.620] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1687240175620 resason: Dtls closed
+[2023-06-20 13:49:36.499] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 13:50:22.588] [[X2Rtc]] [warning] X2NetWebRtcConnection(2) lost connection at: 1687240222588 resason: Dtls closed
+[2023-06-20 13:51:15.018] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:53378 streamId: #!::r=live/123,m=publish
+[2023-06-20 13:51:15.032] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 13:51:18.536] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 13:51:43.791] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687240303791 resason: Dtls closed
+[2023-06-20 13:53:04.870] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 13:55:03.713] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:55635 streamId: #!::r=live/123,m=publish
+[2023-06-20 13:55:03.725] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 13:56:06.268] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:63507 streamId: #!::r=live/123,m=publish
+[2023-06-20 13:56:06.283] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 13:56:08.995] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1687240568995 resason: Dtls closed
+[2023-06-20 13:56:10.145] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 13:58:05.378] [[X2Rtc]] [warning] X2NetWebRtcConnection(2) lost connection at: 1687240685378 resason: Not recvied data by long time.
+[2023-06-20 14:10:43.778] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:54261 streamId: #!::r=live/123,m=publish
+[2023-06-20 14:10:43.798] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 14:10:47.765] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 14:11:02.507] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687241462507 resason: Not recvied data by long time.
+[2023-06-20 14:11:25.701] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:54834 streamId: #!::r=live/123,m=publish
+[2023-06-20 14:11:25.703] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 14:11:28.781] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 14:12:40.848] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687241560848 resason: Not recvied data by long time.
+[2023-06-20 14:13:13.746] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 14:16:29.270] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:62052 streamId: #!::r=live/123,m=publish
+[2023-06-20 14:16:29.282] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 14:16:32.455] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 14:22:34.692] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:62638 streamId: #!::r=live/123,m=publish
+[2023-06-20 14:22:34.699] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 14:22:38.070] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 14:23:06.786] [[X2Rtc]] [error] [srt] srt_recvmsg rlt: -1 error: Non-blocking call failure: no data available for reading
+[2023-06-20 14:40:11.909] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:52863 streamId: #!::r=live/123,m=publish
+[2023-06-20 14:40:11.913] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 14:40:15.235] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 14:40:47.793] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687243247793 resason: Dtls closed
+[2023-06-20 14:43:57.935] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:60127 streamId: #!::r=live/123,m=publish
+[2023-06-20 14:43:57.950] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 14:44:00.904] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 14:44:17.697] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687243457697 resason: Dtls closed
+[2023-06-20 14:46:20.215] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 14:46:33.786] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687243593786 resason: Dtls closed
+[2023-06-20 14:47:16.840] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 14:47:48.623] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:57775 streamId: #!::r=live/123,m=publish
+[2023-06-20 14:47:48.628] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 14:47:56.573] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687243676573 resason: Dtls closed
+[2023-06-20 14:48:07.290] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 14:54:47.307] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:49677 streamId: #!::r=live/123,m=publish
+[2023-06-20 14:54:47.323] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 14:54:52.007] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 14:57:15.677] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 14:57:23.131] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:52776 streamId: #!::r=live/123,m=publish
+[2023-06-20 14:57:23.147] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 14:57:26.741] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687244246741 resason: Not recvied data by long time.
+[2023-06-20 14:58:03.976] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1687244283976 resason: Dtls closed
+[2023-06-20 14:58:27.601] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 15:04:27.683] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 15:04:50.081] [[X2Rtc]] [warning] X2NetWebRtcConnection(2) lost connection at: 1687244690081 resason: Dtls closed
+[2023-06-20 15:23:27.694] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 15:23:31.104] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:50597 streamId: #!::r=live/123,m=publish
+[2023-06-20 15:23:31.106] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 15:24:27.788] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687245867788 resason: Dtls closed
+[2023-06-20 15:25:31.595] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:51225 streamId: #!::r=live/123,m=publish
+[2023-06-20 15:25:31.606] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 15:25:36.266] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 15:26:31.088] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687245991088 resason: Dtls closed
+[2023-06-20 15:33:50.884] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:61891 streamId: #!::r=live/123,m=publish
+[2023-06-20 15:33:50.886] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 15:33:53.532] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 15:34:08.356] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1687246448356 resason: Not recvied data by long time.
+[2023-06-20 15:34:21.322] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 15:37:16.194] [[X2Rtc]] [warning] X2NetWebRtcConnection(2) lost connection at: 1687246636194 resason: Dtls closed
+[2023-06-20 17:00:45.953] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 17:00:49.682] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 17:01:33.429] [[X2Rtc]] [warning] X2NetWebRtcConnection(3) lost connection at: 1687251693429 resason: Dtls closed
+[2023-06-20 17:02:17.949] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 17:02:21.078] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 17:14:07.745] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 17:39:19.121] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 17:39:41.447] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 17:39:46.660] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687253986660 resason: Dtls closed
+[2023-06-20 17:39:52.621] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 17:57:21.222] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 17:57:25.687] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 17:58:09.449] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 17:58:23.456] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687255103456 resason: Not recvied data by long time.
+[2023-06-20 17:58:35.139] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1687255115139 resason: Not recvied data by long time.
+[2023-06-20 17:59:23.256] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 17:59:26.352] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 17:59:48.268] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 17:59:51.519] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 18:03:44.985] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 18:03:51.130] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 18:04:43.646] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:64868 streamId: #!::r=live/123,m=publish
+[2023-06-20 18:04:43.649] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 18:04:45.805] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687255485805 resason: Dtls closed
+[2023-06-20 18:04:48.963] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 18:06:40.817] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1687255600817 resason: Dtls closed
+[2023-06-20 18:07:44.909] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:58177 streamId: #!::r=live/123,m=publish
+[2023-06-20 18:07:44.912] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 18:07:48.131] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 18:08:29.811] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687255709811 resason: Not recvied data by long time.
+[2023-06-20 18:21:54.053] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 18:22:02.670] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687256522670 resason: Dtls closed
+[2023-06-20 18:29:26.339] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 18:29:41.702] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687256981702 resason: Dtls closed
+[2023-06-20 18:48:31.864] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:60521 streamId: #!::r=live/123,m=publish
+[2023-06-20 18:48:31.867] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 18:48:36.983] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 18:48:44.734] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687258124734 resason: Dtls closed
+[2023-06-20 18:51:22.870] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:64074 streamId: #!::r=live/123,m=publish
+[2023-06-20 18:51:22.873] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 18:51:26.587] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 19:24:11.456] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:52329 streamId: #!::r=live/123,m=publish
+[2023-06-20 19:24:11.457] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 19:24:19.475] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 19:26:03.468] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687260363468 resason: Dtls closed
+[2023-06-20 19:26:05.994] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 19:27:31.831] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1687260451831 resason: Dtls closed
+[2023-06-20 19:27:36.465] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 19:27:39.632] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 19:30:22.147] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 19:30:26.425] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 20:02:24.522] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 20:02:28.287] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687262548286 resason: Dtls closed
+[2023-06-20 20:02:30.619] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 20:27:12.850] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 20:29:46.710] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1687264186710 resason: Dtls closed
+[2023-06-20 20:30:19.263] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 20:30:23.988] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 20:32:12.806] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 20:32:56.435] [[X2Rtc]] [warning] X2NetWebRtcConnection(0) lost connection at: 1687264376435 resason: Dtls closed
+[2023-06-20 20:32:57.482] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 20:33:12.057] [[X2Rtc]] [warning] X2NetWebRtcConnection(1) lost connection at: 1687264392057 resason: Not recvied data by long time.
+[2023-06-20 20:33:20.271] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 20:33:24.991] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 20:34:14.013] [[X2Rtc]] [warning] X2NetWebRtcConnection(2) lost connection at: 1687264454013 resason: Not recvied data by long time.
+[2023-06-20 20:35:09.614] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 20:35:19.140] [[X2Rtc]] [warning] X2NetWebRtcConnection(4) lost connection at: 1687264519140 resason: Dtls closed
+[2023-06-20 20:40:31.390] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 20:40:36.267] [[X2Rtc]] [warning] X2NetWebRtcConnection(3) lost connection at: 1687264836267 resason: Dtls closed
+[2023-06-20 20:40:39.404] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 20:40:47.433] [[X2Rtc]] [warning] X2NetWebRtcConnection(6) lost connection at: 1687264847433 resason: Dtls closed
+[2023-06-20 20:40:51.781] [[X2Rtc]] [warning] X2NetWebRtcConnection(5) lost connection at: 1687264851781 resason: Dtls closed
+[2023-06-20 20:41:18.754] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 20:41:22.107] [[X2Rtc]] [warning] X2NetWebRtcConnection(7) lost connection at: 1687264882107 resason: Dtls closed
+[2023-06-20 20:46:31.785] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:54045 streamId: #!::h=live/123,m=publish
+[2023-06-20 20:46:36.320] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 20:48:06.056] [[X2Rtc]] [warning] X2NetWebRtcConnection(8) lost connection at: 1687265286056 resason: Not recvied data by long time.
+[2023-06-20 20:52:45.520] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:55676 streamId: #!::r=live/123,m=publish
+[2023-06-20 20:52:45.522] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 20:52:56.215] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 20:53:26.909] [[X2Rtc]] [warning] X2NetWebRtcConnection(9) lost connection at: 1687265606908 resason: Dtls closed
+[2023-06-20 20:53:41.439] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 20:54:29.213] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 20:58:15.106] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 21:04:52.181] [[X2Rtc]] [warning] X2NetWebRtcConnection(10) lost connection at: 1687266292181 resason: Dtls closed
+[2023-06-20 21:05:28.919] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:53557 streamId: #!::r=live/123,m=publish
+[2023-06-20 21:05:28.921] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 21:05:33.653] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 21:13:46.318] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:59351 streamId: #!::r=live/123,m=publish
+[2023-06-20 21:13:46.321] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 21:13:52.526] [[X2Rtc]] [warning] X2NetWebRtcConnection(11) lost connection at: 1687266832526 resason: Dtls closed
+[2023-06-20 21:13:58.837] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 21:17:25.020] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:65402 streamId: #!::r=live/123,m=publish
+[2023-06-20 21:17:25.021] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 21:17:49.944] [[X2Rtc]] [warning] X2NetWebRtcConnection(12) lost connection at: 1687267069944 resason: Dtls closed
+[2023-06-20 21:17:53.388] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 21:18:02.837] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 21:20:44.665] [[X2Rtc]] [warning] X2NetWebRtcConnection(13) lost connection at: 1687267244665 resason: Dtls closed
+[2023-06-20 21:21:02.351] [[X2Rtc]] [info] [srt] new connection: 127.0.0.1:62326 streamId: #!::r=live/123,m=publish
+[2023-06-20 21:21:02.352] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-20 21:21:12.016] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 21:21:16.619] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-20 21:24:30.757] [[X2Rtc]] [warning] X2NetWebRtcConnection(14) lost connection at: 1687267470757 resason: Dtls closed
+[2023-06-26 15:46:33.415] [[X2Rtc]] [error] Not found protoHandler for X2NetType : RTP
+[2023-06-26 15:47:53.228] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-26 15:49:20.946] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-26 15:55:04.960] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-26 15:55:26.397] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-26 15:57:11.685] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-26 15:58:36.314] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-26 15:59:49.422] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-26 16:00:42.270] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-26 16:13:13.735] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-26 16:13:45.646] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-26 16:14:07.748] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-26 16:15:12.295] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-26 16:15:22.250] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-26 16:15:31.437] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-26 16:18:45.049] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-26 18:17:08.499] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-26 18:17:12.808] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-26 18:22:32.809] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-26 18:22:55.889] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-26 18:23:09.233] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-26 18:23:18.798] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-27 14:50:54.355] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-27 14:52:59.075] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-27 15:47:37.726] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-27 15:48:11.267] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-27 15:55:52.512] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-27 15:58:33.759] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-27 16:00:27.006] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-27 16:00:44.869] [[X2Rtc]] [info] OnX2ProtoHandlerPlay app: live stream: 123
+[2023-06-27 16:02:42.107] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-27 16:09:04.562] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-27 16:12:00.358] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-27 17:36:36.123] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-27 17:37:45.897] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-27 17:41:22.666] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-27 17:41:40.745] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-27 17:45:31.910] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-27 17:45:31.910] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123
+[2023-06-27 17:48:04.824] [[X2Rtc]] [info] OnX2ProtoHandlerPublish app: live stream: 123

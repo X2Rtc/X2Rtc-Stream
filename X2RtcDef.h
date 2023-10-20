@@ -4,7 +4,7 @@
 *  Please visit https://www.x2rtc.com for detail.
 *
 *  Author: Eric(eric@x2rtc.com)
-*  Twitter: @x2rtc
+*  Twitter: @X2rtc_cloud
 *
 * The GNU General Public License is a free, copyleft license for
 * software and other kinds of works.

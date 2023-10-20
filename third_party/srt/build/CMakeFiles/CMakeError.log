@@ -1,0 +1,208 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Work/X2Rtc-Project/third_party/srt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_8cc2c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.29.30148 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8cc2c.dir\Debug\\" /Fd"cmTC_8cc2c.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\cmTC_8cc2c.vcxproj]
+
+
+
+Determining if the function inet_pton exists failed with the following output:
+Change Dir: C:/Work/X2Rtc-Project/third_party/srt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_57f00.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.29.30148 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=inet_pton /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_57f00.dir\Debug\\" /Fd"cmTC_57f00.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.19\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 _inet_pton，函数 _main 中引用了该符号 [C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\cmTC_57f00.vcxproj]
+C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\Debug\cmTC_57f00.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\cmTC_57f00.vcxproj]
+
+
+
+Determining if the pthread_getname_np exist failed with the following output:
+Change Dir: C:/Work/X2Rtc-Project/third_party/srt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_b0194.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.29.30148 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _GNU_SOURCE /D _DARWIN_C_SOURCE /D _POSIX_SOURCE=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b0194.dir\Debug\\" /Fd"cmTC_b0194.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue  -pthread "C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+cl : 命令行 warning D9002: 忽略未知选项“-pthread” [C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\cmTC_b0194.vcxproj]
+C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “pthread_np.h”: No such file or directory [C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\cmTC_b0194.vcxproj]
+
+
+File C:/Work/X2Rtc-Project/third_party/srt/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread_np.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_getname_np
+  return ((int*)(&pthread_getname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pthread_setname_np exist failed with the following output:
+Change Dir: C:/Work/X2Rtc-Project/third_party/srt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_800d6.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.29.30148 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _GNU_SOURCE /D _DARWIN_C_SOURCE /D _POSIX_SOURCE=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_800d6.dir\Debug\\" /Fd"cmTC_800d6.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue  -pthread "C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+cl : 命令行 warning D9002: 忽略未知选项“-pthread” [C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\cmTC_800d6.vcxproj]
+C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “pthread_np.h”: No such file or directory [C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\cmTC_800d6.vcxproj]
+
+
+File C:/Work/X2Rtc-Project/third_party/srt/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread_np.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_setname_np
+  return ((int*)(&pthread_setname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pthread_getname_np exist failed with the following output:
+Change Dir: C:/Work/X2Rtc-Project/third_party/srt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_4c872.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.29.30148 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _GNU_SOURCE /D _DARWIN_C_SOURCE /D _POSIX_SOURCE=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4c872.dir\Debug\\" /Fd"cmTC_4c872.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue  -pthread "C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+cl : 命令行 warning D9002: 忽略未知选项“-pthread” [C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\cmTC_4c872.vcxproj]
+C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\cmTC_4c872.vcxproj]
+
+
+File C:/Work/X2Rtc-Project/third_party/srt/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_getname_np
+  return ((int*)(&pthread_getname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pthread_setname_np exist failed with the following output:
+Change Dir: C:/Work/X2Rtc-Project/third_party/srt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_b8872.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.29.30148 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _GNU_SOURCE /D _DARWIN_C_SOURCE /D _POSIX_SOURCE=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b8872.dir\Debug\\" /Fd"cmTC_b8872.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue  -pthread "C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+cl : 命令行 warning D9002: 忽略未知选项“-pthread” [C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\cmTC_b8872.vcxproj]
+C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\cmTC_b8872.vcxproj]
+
+
+File C:/Work/X2Rtc-Project/third_party/srt/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_setname_np
+  return ((int*)(&pthread_setname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function __atomic_fetch_add_8 exists in the atomic failed with the following output:
+Change Dir: C:/Work/X2Rtc-Project/third_party/srt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_40150.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.29.30148 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=__atomic_fetch_add_8 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_40150.dir\Debug\\" /Fd"cmTC_40150.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.19\Modules\CheckFunctionExists.c"
+LINK : fatal error LNK1104: 无法打开文件“atomic.lib” [C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\cmTC_40150.vcxproj]
+
+
+
+Performing C SOURCE FILE Test HAVE_LIBATOMIC_COMPILES failed with the following output:
+Change Dir: C:/Work/X2Rtc-Project/third_party/srt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_34f37.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.29.30148 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_LIBATOMIC_COMPILES /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_34f37.dir\Debug\\" /Fd"cmTC_34f37.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\src.c"
+LINK : fatal error LNK1104: 无法打开文件“atomic.lib” [C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\cmTC_34f37.vcxproj]
+
+
+Source file was:
+
+		int main(void)
+		{
+			const int result = 0;
+			return result;
+		}
+	
+Performing C SOURCE FILE Test HAVE_GCCATOMIC_INTRINSICS failed with the following output:
+Change Dir: C:/Work/X2Rtc-Project/third_party/srt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_fa634.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.29.30148 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_GCCATOMIC_INTRINSICS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fa634.dir\Debug\\" /Fd"cmTC_fa634.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\src.c"
+C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\src.c(8,22): warning C4013: “__atomic_add_fetch”未定义；假设外部返回 int [C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\cmTC_fa634.vcxproj]
+C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\src.c(8,46): error C2065: “__ATOMIC_SEQ_CST”: 未声明的标识符 [C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\cmTC_fa634.vcxproj]
+C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\src.c(9,46): error C2065: “__ATOMIC_SEQ_CST”: 未声明的标识符 [C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\cmTC_fa634.vcxproj]
+C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\src.c(10,29): warning C4013: “__atomic_sub_fetch”未定义；假设外部返回 int [C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\cmTC_fa634.vcxproj]
+C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\src.c(10,53): error C2065: “__ATOMIC_SEQ_CST”: 未声明的标识符 [C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\cmTC_fa634.vcxproj]
+C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\src.c(11,49): error C2065: “__ATOMIC_SEQ_CST”: 未声明的标识符 [C:\Work\X2Rtc-Project\third_party\srt\build\CMakeFiles\CMakeTmp\cmTC_fa634.vcxproj]
+
+
+Source file was:
+
+		#include<stddef.h>
+		#include<stdint.h>
+		int main(void)
+		{
+			ptrdiff_t x = 0;
+			intmax_t y = 0;
+			__atomic_add_fetch(&x, 1, __ATOMIC_SEQ_CST);
+			__atomic_add_fetch(&y, 1, __ATOMIC_SEQ_CST);
+			return __atomic_sub_fetch(&x, 1, __ATOMIC_SEQ_CST)
+				+ __atomic_sub_fetch(&y, 1, __ATOMIC_SEQ_CST);
+		}
+	

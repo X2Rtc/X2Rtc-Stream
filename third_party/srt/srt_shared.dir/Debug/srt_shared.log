@@ -1,0 +1,37 @@
+﻿  Building Custom Rule C:/Work/X2Rtc-Project/third_party/srt/CMakeLists.txt
+  CMake is re-running because C:/Work/X2Rtc-Project/third_party/srt/CMakeFiles/generate.stamp dependency file is missing.
+  -- Selecting Windows SDK version 10.0.22000.0 to target Windows 10.0.19045.
+  CMake Error at CMakeLists.txt:24 (project):
+    Failed to run MSBuild command:
+  
+      C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe
+  
+    to get the value of VCTargetsPath:
+  
+      鐢ㄤ簬 .NET Framework 鐨?Microsoft (R) 鐢熸垚寮曟搸鐗堟湰 16.11.2+f32259642
+      鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+      
+      鐢熸垚鍚姩鏃堕棿涓?2023-06-05 14:06:19銆?
+      鑺傜偣 1 涓婄殑椤圭洰鈥淐:\Work\X2Rtc-Project\third_party\srt\CMakeFiles\3.19.8\VCTargetsPath.vcxproj鈥?榛樿鐩爣)銆?
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(820,5): error : The BaseOutputPath/OutputPath property is not set for project 'VCTargetsPath.vcxproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='Win32,x64'.  You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Work\X2Rtc-Project\third_party\srt\CMakeFiles\3.19.8\VCTargetsPath.vcxproj]
+      宸插畬鎴愮敓鎴愰」鐩€淐:\Work\X2Rtc-Project\third_party\srt\CMakeFiles\3.19.8\VCTargetsPath.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+      
+      鐢熸垚澶辫触銆?
+      
+      鈥淐:\Work\X2Rtc-Project\third_party\srt\CMakeFiles\3.19.8\VCTargetsPath.vcxproj鈥?榛樿鐩爣) (1) ->
+      (_CheckForInvalidConfigurationAndPlatform 鐩爣) -> 
+  -- Configuring incomplete, errors occurred!
+  See also "C:/Work/X2Rtc-Project/third_party/srt/CMakeFiles/CMakeOutput.log".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(820,5): error : The BaseOutputPath/OutputPath property is not set for project 'VCTargetsPath.vcxproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='Win32,x64'.  You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Work\X2Rtc-Project\third_party\srt\CMakeFiles\3.19.8\VCTargetsPath.vcxproj]
+      
+          0 涓鍛?
+          1 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:00.12
+      
+  
+    Exit code: 1
+  
+  
+  
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(241,5): error MSB8066: “C:\Work\X2Rtc-Project\third_party\srt\CMakeLists.txt”的自定义生成已退出，代码为 1。

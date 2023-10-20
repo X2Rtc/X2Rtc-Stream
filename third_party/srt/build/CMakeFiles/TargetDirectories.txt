@@ -1,0 +1,10 @@
+C:/Work/X2Rtc-Project/third_party/srt/build/CMakeFiles/INSTALL.dir
+C:/Work/X2Rtc-Project/third_party/srt/build/CMakeFiles/srt-file-transmit.dir
+C:/Work/X2Rtc-Project/third_party/srt/build/CMakeFiles/srt_shared.dir
+C:/Work/X2Rtc-Project/third_party/srt/build/CMakeFiles/srt_virtual.dir
+C:/Work/X2Rtc-Project/third_party/srt/build/CMakeFiles/srtsupport_virtual.dir
+C:/Work/X2Rtc-Project/third_party/srt/build/CMakeFiles/srt_static.dir
+C:/Work/X2Rtc-Project/third_party/srt/build/CMakeFiles/srt-live-transmit.dir
+C:/Work/X2Rtc-Project/third_party/srt/build/CMakeFiles/srt-tunnel.dir
+C:/Work/X2Rtc-Project/third_party/srt/build/CMakeFiles/ALL_BUILD.dir
+C:/Work/X2Rtc-Project/third_party/srt/build/CMakeFiles/ZERO_CHECK.dir

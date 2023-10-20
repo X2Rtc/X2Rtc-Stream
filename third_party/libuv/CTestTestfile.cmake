@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv
+# Build directory: C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+if("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test("uv_test" "C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/Debug/uv_run_tests.exe")
+  set_tests_properties("uv_test" PROPERTIES  WORKING_DIRECTORY "C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv" _BACKTRACE_TRIPLES "C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeLists.txt;557;add_test;C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test("uv_test" "C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/Release/uv_run_tests.exe")
+  set_tests_properties("uv_test" PROPERTIES  WORKING_DIRECTORY "C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv" _BACKTRACE_TRIPLES "C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeLists.txt;557;add_test;C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test("uv_test" "C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/MinSizeRel/uv_run_tests.exe")
+  set_tests_properties("uv_test" PROPERTIES  WORKING_DIRECTORY "C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv" _BACKTRACE_TRIPLES "C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeLists.txt;557;add_test;C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test("uv_test" "C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/RelWithDebInfo/uv_run_tests.exe")
+  set_tests_properties("uv_test" PROPERTIES  WORKING_DIRECTORY "C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv" _BACKTRACE_TRIPLES "C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeLists.txt;557;add_test;C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeLists.txt;0;")
+else()
+  add_test("uv_test" NOT_AVAILABLE)
+endif()
+if("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test("uv_test_a" "C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/Debug/uv_run_tests_a.exe")
+  set_tests_properties("uv_test_a" PROPERTIES  WORKING_DIRECTORY "C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv" _BACKTRACE_TRIPLES "C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeLists.txt;572;add_test;C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test("uv_test_a" "C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/Release/uv_run_tests_a.exe")
+  set_tests_properties("uv_test_a" PROPERTIES  WORKING_DIRECTORY "C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv" _BACKTRACE_TRIPLES "C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeLists.txt;572;add_test;C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test("uv_test_a" "C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/MinSizeRel/uv_run_tests_a.exe")
+  set_tests_properties("uv_test_a" PROPERTIES  WORKING_DIRECTORY "C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv" _BACKTRACE_TRIPLES "C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeLists.txt;572;add_test;C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test("uv_test_a" "C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/RelWithDebInfo/uv_run_tests_a.exe")
+  set_tests_properties("uv_test_a" PROPERTIES  WORKING_DIRECTORY "C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv" _BACKTRACE_TRIPLES "C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeLists.txt;572;add_test;C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeLists.txt;0;")
+else()
+  add_test("uv_test_a" NOT_AVAILABLE)
+endif()

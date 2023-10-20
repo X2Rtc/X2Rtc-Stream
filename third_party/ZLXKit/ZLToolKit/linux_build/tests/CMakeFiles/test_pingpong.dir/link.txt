@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/test_pingpong.dir/test_pingpong.cpp.o  -o ../bin/test_pingpong  -Wl,-rpath,/mnt/work/XRtc-Project/ZLXxxxKit/ZLToolKit/linux_build/lib ../lib/libZLToolKit.so -lpthread 

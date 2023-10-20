@@ -1,0 +1,13 @@
+C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeFiles/NightlyMemoryCheck.dir
+C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeFiles/Experimental.dir
+C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeFiles/uv_run_tests_a.dir
+C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeFiles/Nightly.dir
+C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeFiles/uv_run_tests.dir
+C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeFiles/uv_a.dir
+C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeFiles/uv.dir
+C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeFiles/Continuous.dir
+C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeFiles/uv_run_benchmarks_a.dir
+C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeFiles/RUN_TESTS.dir
+C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeFiles/INSTALL.dir
+C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeFiles/ALL_BUILD.dir
+C:/WorkSpace/IOT-Project/RtcLite/RtxpChan/deps/libuv/CMakeFiles/ZERO_CHECK.dir

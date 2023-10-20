@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5D4B3291D3938A100D96938 /* sctp_asconf.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D4B2EC1D3938A100D96938 /* sctp_asconf.c */; };
+		B5D4B32A1D3938A100D96938 /* sctp_auth.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D4B2EE1D3938A100D96938 /* sctp_auth.c */; };
+		B5D4B32B1D3938A100D96938 /* sctp_bsd_addr.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D4B2F01D3938A100D96938 /* sctp_bsd_addr.c */; };
+		B5D4B32C1D3938A100D96938 /* sctp_callout.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D4B2F21D3938A100D96938 /* sctp_callout.c */; };
+		B5D4B32D1D3938A100D96938 /* sctp_cc_functions.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D4B2F41D3938A100D96938 /* sctp_cc_functions.c */; };
+		B5D4B32E1D3938A100D96938 /* sctp_crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D4B2F61D3938A100D96938 /* sctp_crc32.c */; };
+		B5D4B32F1D3938A100D96938 /* sctp_indata.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D4B2F91D3938A100D96938 /* sctp_indata.c */; };
+		B5D4B3301D3938A100D96938 /* sctp_input.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D4B2FB1D3938A100D96938 /* sctp_input.c */; };
+		B5D4B3311D3938A100D96938 /* sctp_output.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D4B3001D3938A100D96938 /* sctp_output.c */; };
+		B5D4B3321D3938A100D96938 /* sctp_pcb.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D4B3021D3938A100D96938 /* sctp_pcb.c */; };
+		B5D4B3331D3938A100D96938 /* sctp_peeloff.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D4B3041D3938A100D96938 /* sctp_peeloff.c */; };
+		B5D4B3341D3938A100D96938 /* sctp_sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D4B3071D3938A100D96938 /* sctp_sha1.c */; };
+		B5D4B3351D3938A100D96938 /* sctp_ss_functions.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D4B3091D3938A100D96938 /* sctp_ss_functions.c */; };
+		B5D4B3361D3938A100D96938 /* sctp_sysctl.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D4B30B1D3938A100D96938 /* sctp_sysctl.c */; };
+		B5D4B3371D3938A100D96938 /* sctp_timer.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D4B30D1D3938A100D96938 /* sctp_timer.c */; };
+		B5D4B3381D3938A100D96938 /* sctp_userspace.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D4B3101D3938A100D96938 /* sctp_userspace.c */; };
+		B5D4B3391D3938A100D96938 /* sctp_usrreq.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D4B3111D3938A100D96938 /* sctp_usrreq.c */; };
+		B5D4B33A1D3938A100D96938 /* sctputil.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D4B3131D3938A100D96938 /* sctputil.c */; };
+		B5D4B33B1D3938A100D96938 /* sctp6_usrreq.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D4B3161D3938A100D96938 /* sctp6_usrreq.c */; };
+		B5D4B33C1D3938A100D96938 /* user_environment.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D4B3191D3938A100D96938 /* user_environment.c */; };
+		B5D4B33D1D3938A100D96938 /* user_mbuf.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D4B31F1D3938A100D96938 /* user_mbuf.c */; };
+		B5D4B33E1D3938A100D96938 /* user_recv_thread.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D4B3221D3938A100D96938 /* user_recv_thread.c */; };
+		B5D4B33F1D3938A100D96938 /* user_socket.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D4B3251D3938A100D96938 /* user_socket.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B5D4B2D21D39386700D96938 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B5D4B2D41D39386700D96938 /* libUsrsctp_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUsrsctp_iOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D4B2EC1D3938A100D96938 /* sctp_asconf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sctp_asconf.c; sourceTree = "<group>"; };
+		B5D4B2EE1D3938A100D96938 /* sctp_auth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sctp_auth.c; sourceTree = "<group>"; };
+		B5D4B2F01D3938A100D96938 /* sctp_bsd_addr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sctp_bsd_addr.c; sourceTree = "<group>"; };
+		B5D4B2F21D3938A100D96938 /* sctp_callout.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sctp_callout.c; sourceTree = "<group>"; };
+		B5D4B2F41D3938A100D96938 /* sctp_cc_functions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sctp_cc_functions.c; sourceTree = "<group>"; };
+		B5D4B2F61D3938A100D96938 /* sctp_crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sctp_crc32.c; sourceTree = "<group>"; };
+		B5D4B2F91D3938A100D96938 /* sctp_indata.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sctp_indata.c; sourceTree = "<group>"; };
+		B5D4B2FB1D3938A100D96938 /* sctp_input.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sctp_input.c; sourceTree = "<group>"; };
+		B5D4B3001D3938A100D96938 /* sctp_output.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sctp_output.c; sourceTree = "<group>"; };
+		B5D4B3021D3938A100D96938 /* sctp_pcb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sctp_pcb.c; sourceTree = "<group>"; };
+		B5D4B3041D3938A100D96938 /* sctp_peeloff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sctp_peeloff.c; sourceTree = "<group>"; };
+		B5D4B3071D3938A100D96938 /* sctp_sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sctp_sha1.c; sourceTree = "<group>"; };
+		B5D4B3091D3938A100D96938 /* sctp_ss_functions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sctp_ss_functions.c; sourceTree = "<group>"; };
+		B5D4B30B1D3938A100D96938 /* sctp_sysctl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sctp_sysctl.c; sourceTree = "<group>"; };
+		B5D4B30D1D3938A100D96938 /* sctp_timer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sctp_timer.c; sourceTree = "<group>"; };
+		B5D4B3101D3938A100D96938 /* sctp_userspace.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sctp_userspace.c; sourceTree = "<group>"; };
+		B5D4B3111D3938A100D96938 /* sctp_usrreq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sctp_usrreq.c; sourceTree = "<group>"; };
+		B5D4B3131D3938A100D96938 /* sctputil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sctputil.c; sourceTree = "<group>"; };
+		B5D4B3161D3938A100D96938 /* sctp6_usrreq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sctp6_usrreq.c; sourceTree = "<group>"; };
+		B5D4B3191D3938A100D96938 /* user_environment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = user_environment.c; sourceTree = "<group>"; };
+		B5D4B31F1D3938A100D96938 /* user_mbuf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = user_mbuf.c; sourceTree = "<group>"; };
+		B5D4B3221D3938A100D96938 /* user_recv_thread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = user_recv_thread.c; sourceTree = "<group>"; };
+		B5D4B3251D3938A100D96938 /* user_socket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = user_socket.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5D4B2D11D39386700D96938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5D4B2CB1D39386700D96938 = {
+			isa = PBXGroup;
+			children = (
+				B5D4B2E61D3938A100D96938 /* usrsctplib */,
+				B5D4B2D51D39386700D96938 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5D4B2D51D39386700D96938 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5D4B2D41D39386700D96938 /* libUsrsctp_iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5D4B2E61D3938A100D96938 /* usrsctplib */ = {
+			isa = PBXGroup;
+			children = (
+				B5D4B2EA1D3938A100D96938 /* netinet */,
+				B5D4B3151D3938A100D96938 /* netinet6 */,
+				B5D4B3191D3938A100D96938 /* user_environment.c */,
+				B5D4B31F1D3938A100D96938 /* user_mbuf.c */,
+				B5D4B3221D3938A100D96938 /* user_recv_thread.c */,
+				B5D4B3251D3938A100D96938 /* user_socket.c */,
+			);
+			name = usrsctplib;
+			path = usrsctplib/usrsctplib;
+			sourceTree = "<group>";
+		};
+		B5D4B2EA1D3938A100D96938 /* netinet */ = {
+			isa = PBXGroup;
+			children = (
+				B5D4B2EC1D3938A100D96938 /* sctp_asconf.c */,
+				B5D4B2EE1D3938A100D96938 /* sctp_auth.c */,
+				B5D4B2F01D3938A100D96938 /* sctp_bsd_addr.c */,
+				B5D4B2F21D3938A100D96938 /* sctp_callout.c */,
+				B5D4B2F41D3938A100D96938 /* sctp_cc_functions.c */,
+				B5D4B2F61D3938A100D96938 /* sctp_crc32.c */,
+				B5D4B2F91D3938A100D96938 /* sctp_indata.c */,
+				B5D4B2FB1D3938A100D96938 /* sctp_input.c */,
+				B5D4B3001D3938A100D96938 /* sctp_output.c */,
+				B5D4B3021D3938A100D96938 /* sctp_pcb.c */,
+				B5D4B3041D3938A100D96938 /* sctp_peeloff.c */,
+				B5D4B3071D3938A100D96938 /* sctp_sha1.c */,
+				B5D4B3091D3938A100D96938 /* sctp_ss_functions.c */,
+				B5D4B30B1D3938A100D96938 /* sctp_sysctl.c */,
+				B5D4B30D1D3938A100D96938 /* sctp_timer.c */,
+				B5D4B3101D3938A100D96938 /* sctp_userspace.c */,
+				B5D4B3111D3938A100D96938 /* sctp_usrreq.c */,
+				B5D4B3131D3938A100D96938 /* sctputil.c */,
+			);
+			path = netinet;
+			sourceTree = "<group>";
+		};
+		B5D4B3151D3938A100D96938 /* netinet6 */ = {
+			isa = PBXGroup;
+			children = (
+				B5D4B3161D3938A100D96938 /* sctp6_usrreq.c */,
+			);
+			path = netinet6;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5D4B2D31D39386700D96938 /* Usrsctp_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5D4B2DD1D39386700D96938 /* Build configuration list for PBXNativeTarget "Usrsctp_iOS" */;
+			buildPhases = (
+				B5D4B2D01D39386700D96938 /* Sources */,
+				B5D4B2D11D39386700D96938 /* Frameworks */,
+				B5D4B2D21D39386700D96938 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Usrsctp_iOS;
+			productName = usrsctp;
+			productReference = B5D4B2D41D39386700D96938 /* libUsrsctp_iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5D4B2CC1D39386700D96938 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = EricTao;
+				TargetAttributes = {
+					B5D4B2D31D39386700D96938 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B5D4B2CF1D39386700D96938 /* Build configuration list for PBXProject "Usrsctp_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = B5D4B2CB1D39386700D96938;
+			productRefGroup = B5D4B2D51D39386700D96938 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5D4B2D31D39386700D96938 /* Usrsctp_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5D4B2D01D39386700D96938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D4B32C1D3938A100D96938 /* sctp_callout.c in Sources */,
+				B5D4B3321D3938A100D96938 /* sctp_pcb.c in Sources */,
+				B5D4B32F1D3938A100D96938 /* sctp_indata.c in Sources */,
+				B5D4B3291D3938A100D96938 /* sctp_asconf.c in Sources */,
+				B5D4B3351D3938A100D96938 /* sctp_ss_functions.c in Sources */,
+				B5D4B33D1D3938A100D96938 /* user_mbuf.c in Sources */,
+				B5D4B33A1D3938A100D96938 /* sctputil.c in Sources */,
+				B5D4B33C1D3938A100D96938 /* user_environment.c in Sources */,
+				B5D4B3381D3938A100D96938 /* sctp_userspace.c in Sources */,
+				B5D4B32D1D3938A100D96938 /* sctp_cc_functions.c in Sources */,
+				B5D4B33B1D3938A100D96938 /* sctp6_usrreq.c in Sources */,
+				B5D4B33F1D3938A100D96938 /* user_socket.c in Sources */,
+				B5D4B32E1D3938A100D96938 /* sctp_crc32.c in Sources */,
+				B5D4B3371D3938A100D96938 /* sctp_timer.c in Sources */,
+				B5D4B3331D3938A100D96938 /* sctp_peeloff.c in Sources */,
+				B5D4B32B1D3938A100D96938 /* sctp_bsd_addr.c in Sources */,
+				B5D4B3311D3938A100D96938 /* sctp_output.c in Sources */,
+				B5D4B3301D3938A100D96938 /* sctp_input.c in Sources */,
+				B5D4B3391D3938A100D96938 /* sctp_usrreq.c in Sources */,
+				B5D4B33E1D3938A100D96938 /* user_recv_thread.c in Sources */,
+				B5D4B3341D3938A100D96938 /* sctp_sha1.c in Sources */,
+				B5D4B32A1D3938A100D96938 /* sctp_auth.c in Sources */,
+				B5D4B3361D3938A100D96938 /* sctp_sysctl.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B5D4B2DB1D39386700D96938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = "";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5D4B2DC1D39386700D96938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5D4B2DE1D39386700D96938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				ENABLE_BITCODE = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					SCTP_USE_OPENSSL_SHA1,
+					SCTP_SIMPLE_ALLOCATOR,
+					SCTP_PROCESS_LEVEL_LOCKS,
+					__Userspace__,
+					HAVE_SA_LEN,
+					HAVE_SCONN_LEN,
+					__APPLE_USE_RFC_2292,
+					__Userspace_os_Darwin,
+					NON_WINDOWS_DEFINE,
+				);
+				HEADER_SEARCH_PATHS = (
+					./usrsctplib/usrsctplib/netinet,
+					./usrsctplib/usrsctplib/,
+					../boringssl/src/include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-U__APPLE__",
+					"-w",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5D4B2DF1D39386700D96938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				ENABLE_BITCODE = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					SCTP_USE_OPENSSL_SHA1,
+					SCTP_SIMPLE_ALLOCATOR,
+					SCTP_PROCESS_LEVEL_LOCKS,
+					__Userspace__,
+					HAVE_SA_LEN,
+					HAVE_SCONN_LEN,
+					__APPLE_USE_RFC_2292,
+					__Userspace_os_Darwin,
+					NON_WINDOWS_DEFINE,
+				);
+				HEADER_SEARCH_PATHS = (
+					./usrsctplib/usrsctplib/netinet,
+					./usrsctplib/usrsctplib/,
+					../boringssl/src/include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-U__APPLE__",
+					"-w",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5D4B2CF1D39386700D96938 /* Build configuration list for PBXProject "Usrsctp_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D4B2DB1D39386700D96938 /* Debug */,
+				B5D4B2DC1D39386700D96938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5D4B2DD1D39386700D96938 /* Build configuration list for PBXNativeTarget "Usrsctp_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D4B2DE1D39386700D96938 /* Debug */,
+				B5D4B2DF1D39386700D96938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5D4B2CC1D39386700D96938 /* Project object */;
+}
