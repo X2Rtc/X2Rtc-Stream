@@ -22,6 +22,9 @@ sh x2rtc.sh start
 4、Other parameters
 
 ```
+## Multiple cpu installation 
+sh make.sh all -j4
+
 ## Uninstall X2RtcStream service
 sh make.sh all clean
 
