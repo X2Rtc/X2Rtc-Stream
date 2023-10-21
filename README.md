@@ -26,7 +26,7 @@ x2rtc is designed to accomplish with the following goals:
 git clone https://github.com/X2Rtc/X2Rtc-Stream.git
 ```
 
-2、Executing the installation script
+2、Execute the installation script
 
 ```
 cd X2Rtc-Stream
@@ -42,7 +42,7 @@ sh x2rtc.sh start
 4、Other parameters
 
 ```
-## Multiple cpu installation 
+## Multiple cpu complie & installation 
 sh make.sh all -j4
 
 ## Uninstall X2RtcStream service
