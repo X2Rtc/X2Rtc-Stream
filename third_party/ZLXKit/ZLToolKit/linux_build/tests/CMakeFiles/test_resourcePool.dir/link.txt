@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/test_resourcePool.dir/test_resourcePool.cpp.o  -o ../bin/test_resourcePool  -Wl,-rpath,/mnt/work/XRtc-Project/ZLXxxxKit/ZLToolKit/linux_build/lib ../lib/libZLToolKit.so -lpthread 
