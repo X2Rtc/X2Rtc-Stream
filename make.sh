@@ -39,7 +39,7 @@ fi
  if [ "$1" = "all" ] && [ "$2" = "clean" ] ; then 
 	rm -rf out
  else
-	yum install -y perl-ExtUtils-CBuilder perl-ExtUtils-MakeMaker tcl
+	yum install -y perl-ExtUtils-CBuilder perl-ExtUtils-MakeMaker tcl cmake openssl-devel openssl openssl-1.0.2k-26.el7_9.x86_64
 	mkdir -p $TARGET_LINUX_PATH
  fi
 
@@ -56,9 +56,10 @@ fi
 		else
 			tar -zxvf openssl.tar.gz
 			cd openssl
-			./Configure --prefix=$pwd/build
+			mkdir ./build
+			./Configure --prefix=$BasePath/x-build/openssl/build
 			make $2 && make install
-			cp -r $pwd/build/lib64/*.so* ../../$TARGET_LINUX_PATH
+			cp -r $BasePath/x-build/openssl/build/lib64/*.so* ../../$TARGET_LINUX_PATH
 			cd ../..
 		fi
 	fi
@@ -77,9 +78,10 @@ fi
 		else
 			tar -zxvf srt.tar.gz
 			cd srt
-			./configure --prefix=$pwd/build
+			mkdir ./build
+			./configure --prefix=$BasePath/x-build/srt/build
 			make $2 && make install
-			cp -r $pwd/build/lib64/*.so* ../../$TARGET_LINUX_PATH
+			cp -r $BasePath/x-build/srt/build/lib64/*.so* ../../$TARGET_LINUX_PATH
 			cd ../../
 		fi
 	fi
@@ -90,7 +92,7 @@ fi
  	cd third_party/abseil-cpp 
  	printf "Building abseil-cpp....\r\n" 
 	if [ "$2" = "clean" ];then
-		make $2 && rm -rf  out
+		make $2 && rm -rf out
 	else
 		mkdir -p $TARGET_OBJ_PATH
 		make $2 && make install
