@@ -33,7 +33,8 @@ CPPFILES = \
     ./X2NetPeer.cpp \
     ./X2NetProcess.cpp \
     ./X2ProtoHandler.cpp \
-    ./X2ProxyImpl.cpp
+    ./X2ProxyImpl.cpp \
+	./X2Ssl.cpp
 		
 CCFILES = \
 		

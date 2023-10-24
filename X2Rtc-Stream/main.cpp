@@ -1,7 +1,4 @@
-﻿// X2Rtc-Stream.cpp : 定义静态库的函数。
-//
-
-#include <stdio.h>
+﻿#include <stdio.h>
 #include "X2Proxy.h"
 #include "XUtil.h"
 #include "Win32SocketInit.h"
@@ -12,13 +9,8 @@
 #include "X2RtcThreadPool.h"
 #include "X2MediaDispatch.h"
 #include "X2MediaRtn.h"
+#include "X2Ssl.h"
 
-/*
-1，头文件污染
-2，模块化，分层架构
-3，分布式，横向扩容
-4，中心路由，动态路径
-*/
 
 void X2CheckPrintf(const char* fmt, ...)
 {
@@ -45,7 +37,6 @@ void printInfo() {
 	std::cout << "" << std::endl;
 }
 
-// TODO: 这是一个库函数示例
 int main(int argc, char*argv[])
 {
 	X2SVR_INIT;
@@ -66,6 +57,18 @@ int main(int argc, char*argv[])
 	x2Proxy->ImportX2NetProcess(x2rtc::X2ProcessType::X2Process_Http, conf.GetIntVal("mod", "http", 1080));
 	x2Proxy->ImportX2NetProcess(x2rtc::X2ProcessType::X2Process_Talk, conf.GetIntVal("mod", "talk", 1088));
 
+	int nRtcPort = conf.GetIntVal("mod", "rtc", 10010);
+	int nRtcSslPort = conf.GetIntVal("mod", "rtc_ssl", 10011);
+	if (nRtcSslPort > 0 && nRtcPort > 0) {
+		InitRtcProxy(nRtcSslPort, nRtcPort);
+	}
+	
+	int nHtmlPort = conf.GetIntVal("html", "port", 0);
+	if (nHtmlPort > 0) {
+		const std::string& strDir = conf.GetValue("html", "dir");
+		InitHtmlDemos(nHtmlPort, strDir.c_str());
+	}
+
 	std::string strRegIp = conf.GetValue("reg", "ip");
 	int nRegPort = conf.GetIntVal("reg", "port");
 	x2Proxy->StartTask(strRegIp.c_str(), nRegPort);
@@ -85,6 +88,9 @@ int main(int argc, char*argv[])
 	x2Proxy->StopTask();
 	delete x2Proxy;
 	x2Proxy = NULL;
+
+	DeInitRtcProxy();
+	DeInitHtmlDemos();
 
 	X2RtcThreadPool::Inst().DeInit();
 
