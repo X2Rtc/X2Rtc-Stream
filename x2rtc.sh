@@ -57,8 +57,7 @@ Start()
 	external_ip=$(curl -s ifconfig.me)
 	# Trying to get an internal address
 	internal_ip=$(hostname -I | awk '{print $1}')
-	retval=$?
-	if [ $? -eq 0 ];then
+	if [ ${retval} == 0 ];then
            if [ -n "$external_ip" ]; then
                printf "********************************************************************************* \r\n"
                printf "Web platform External address：https://$external_ip:8080 \r\n"
