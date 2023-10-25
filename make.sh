@@ -425,15 +425,26 @@ fi
  fi 
 
  if [ "$1" = "all" ] || [ "$1" = "X2RtcStream" ] ; then 
+	# Trying to get an external address
+	external_ip=$(curl -s ifconfig.me)
+	# Trying to get an internal address
+	internal_ip=$(hostname -I | awk '{print $1}')
  	# 
  	cd X2Rtc-Stream 
  	printf "Building X2RtcStream....\r\n" 
 	if [ "$2" = "clean" ];then
-		make $2
+	   make $2
 	else
 		mkdir -p $TARGET_OBJ_PATH
 		make $2 && make install
 		chmod +x  ../$TARGET_LINUX_PATH/X2RtcStream 
+		if [ $? -eq 0 ];then
+		   if [ -n "$external_ip" ]; then
+			sed -i "s/192.168.1.130/$external_ip/g" ../X2Rtc-Stream/x2rtc.conf 
+		   else
+			sed -i "s/192.168.1.130/$internal_ip/g" ../X2Rtc-Stream/x2rtc.conf
+		   fi
+		fi
 	fi
  	cd - 
  	printf "\r\n" 

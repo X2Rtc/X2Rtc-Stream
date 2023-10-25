@@ -42,7 +42,7 @@ Start()
 	fi
 		
 	echo -n "Starting Dync Server(${Bin}): "
-	${CurPath}/${Bin} $pwd/X2Rtc-Stream/x2rtc.conf & 2> /dev/null
+	${CurPath}/${Bin} $(pwd)/X2Rtc-Stream/x2rtc.conf & 2> /dev/null
 	retval=$?
 	if [ ${retval} == 0 ]; then
 		echo_success
@@ -53,7 +53,26 @@ Start()
 		break
 	fi
 	sleep 1
-	
+	# Trying to get an external address
+	external_ip=$(curl -s ifconfig.me)
+	# Trying to get an internal address
+	internal_ip=$(hostname -I | awk '{print $1}')
+	if [ ${retval} == 0 ];then
+           if [ -n "$external_ip" ]; then
+               printf "********************************************************************************* \r\n"
+               printf "Web platform External address：https://$external_ip:8080 \r\n"
+               printf "Web platform Internal address：https://$internal_ip:8080 \r\n"
+               printf "WebRTC External push-pull address：webrtc://$external_ip:10011/live/xxx \r\n" 
+               printf "WebRTC Internal push-pull address：webrtc://$internal_ip:10011/live/xxx \r\n"
+               printf "*********************************************************************************\r\n"
+           else
+               printf "*********************************************************************************\r\n"
+               printf "* Failed to retrieve External IP. Trying internal IP... \r\n"
+               printf "* Web platform Internal address：https://$internal_ip:8080 \r\n"
+               printf "* WebRTC Intranet push-pull address：webrtc://$internal_ip:10011/live/xxx \r\n"
+               printf "*********************************************************************************\r\n"
+           fi
+	fi
 	#cd -
 	return 0
 }
