@@ -440,9 +440,11 @@ fi
 		chmod +x  ../$TARGET_LINUX_PATH/X2RtcStream 
 		if [ $? -eq 0 ];then
 		   if [ -n "$external_ip" ]; then
-			sed -i "s/192.168.1.130/$external_ip/g" ../X2Rtc-Stream/x2rtc.conf 
-		   else
-			sed -i "s/192.168.1.130/$internal_ip/g" ../X2Rtc-Stream/x2rtc.conf
+		   	sed -i "s/internal_ip/$internal_ip/g" ../X2Rtc-Stream/x2rtc.conf
+			sed -i "s/external_ip/$external_ip/g" ../X2Rtc-Stream/x2rtc.conf
+		   else			
+			sed -i "s/internal_ip/$internal_ip/g" ../X2Rtc-Stream/x2rtc.conf
+			sed -i "s/,external_ip//g" ../X2Rtc-Stream/x2rtc.conf
 		   fi
 		fi
 	fi
