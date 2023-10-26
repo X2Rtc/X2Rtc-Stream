@@ -60,6 +60,8 @@ Start()
 	if [ ${retval} == 0 ];then
            if [ -n "$external_ip" ]; then
                printf "********************************************************************************* \r\n"
+	       printf "warn: External address please map the port or open the firewall... \r\n"
+	       printf "********************************************************************************* \r\n"
                printf "Web platform External address：https://$external_ip:8080 \r\n"
                printf "Web platform Internal address：https://$internal_ip:8080 \r\n"
                printf "WebRTC External push-pull address：webrtc://$external_ip:10011/live/xxx \r\n" 
