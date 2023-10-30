@@ -18,31 +18,33 @@ x2rtc is designed to accomplish with the following goals:
 * Extremely powerful (Support multi-thread coded in C++ ).
 * Super fast ,stable and useful are our ultimate goal!
 
-## How to use?
+## How to Install?
 
-1、Download the X2RtcStream source code
+1、Download  X2RtcStream
 
 ```
 git clone https://github.com/X2Rtc/X2Rtc-Stream.git
 ```
 
-2、Execute the installation script
+2、Compile X2RtcStream
 
 ```
 cd X2Rtc-Stream
 sh make.sh all
 ```
 
-3、Start X2RtcStream service
+3、Start X2RtcStream
 
 ```
 sh x2rtc.sh start
 ```
 
+`End Install`
+
 4、Other parameters
 
 ```
-## Multiple cpu complie & installation 
+## Multiple cpu installation 
 sh make.sh all -j4
 
 ## Uninstall X2RtcStream service
@@ -54,6 +56,64 @@ sh x2rtc.sh stop
 ## Restart X2RtcStream service
 sh x2rtc.sh restart
 ```
+
+## How to use Demo?
+
+1、Use the address obtained by running sh x2rtc.sh start
+
+Warn：`Check sh x2rtc.sh start print information`
+
+Warn：`Test the Demo using an accessible IP`
+
+```
+Starting Dync Server(X2RtcStream):                         [  确定  ]
+##############################################
+#    X2Rtc: Stream Server (1.0.2_20220914_01)
+# 
+#    Authed by X2Rtc-Team
+#    Website: https://www.x2rtc.com
+##############################################
+
+X2NetWebRtcProcess.cpp: Line 215:	pipe Create Pair ConsumerChannelFd[0]=19 ConsumerChannelFd[1]=20 
+X2NetWebRtcProcess.cpp: Line 217:	pipe Create Pair ProducerChannelFd[0]=23 ProducerChannelFd[1]=24 
+[X2Rtc] Init ssl server OK!
+********************************************************************************* 
+warn: External address please map the port or open the firewall... 
+*********************************************************************************
+Web platform External address：https://127.0.0.1:8080 
+Web platform Internal address：https://192.168.1.146:8080
+WebRTC External push-pull address：webrtc://127.0.0.1:10011/live/xxx
+WebRTC Internal push-pull address：webrtc://192.168.1.146:10011/live/xxx
+*********************************************************************************
+```
+
+2、Login Web Platform Demo
+
+Warn：`Use sh x2rtx.sh start to print the Web platform address`
+
+Warn：`Use Live Pusher Demo to Pusher the stream`
+
+Warn：`Use Live Player Demo to Player the stream`
+
+![image-20231026190531501](./image/Web Platform.png)
+
+3、Live Pusher Demo Example
+
+Warn：`Use sh x2rtx.sh start to print the Pusher address`
+
+Warn：`Please turn on the camera first...`
+
+Warn：`Fill in the Pusher address and click Start `
+
+![image-20231026190831234](./image/Live Pusher Demo.png)
+
+4、Live Player Demo Example
+
+Warn：`Use sh x2rtx.sh start to print the Player address`
+
+Warn：`Fill in the Player address and click Start`
+
+![image-20231026191028206](./image/Live Player Demo.png)
 
 ## Dependencies
 
