@@ -95,7 +95,7 @@ Warn：`Use Live Pusher Demo to Pusher the stream`
 
 Warn：`Use Live Player Demo to Player the stream`
 
-![image-20231026190531501](./image/Web Platform.png)
+![image-20231026190531501](./image/Platform.png)
 
 3、Live Pusher Demo Example
 
@@ -105,7 +105,7 @@ Warn：`Please turn on the camera first...`
 
 Warn：`Fill in the Pusher address and click Start `
 
-![image-20231026190831234](./image/Live Pusher Demo.png)
+![image-20231026190831234](./image/Pusher.png)
 
 4、Live Player Demo Example
 
@@ -113,7 +113,7 @@ Warn：`Use sh x2rtx.sh start to print the Player address`
 
 Warn：`Fill in the Player address and click Start`
 
-![image-20231026191028206](./image/Live Player Demo.png)
+![image-20231026191028206](./image/Player.png)
 
 ## Dependencies
 
