@@ -10,7 +10,7 @@ int InitRtcProxy(int nSslPort, int nRtcPort)
 {
 	if (gHttpRtcProxy == NULL) {
 		gRtcPort = nRtcPort;
-		gHttpRtcProxy = new httplib::SSLServer("./ssl/x2rtc.crt", "./ssl/x2rtc.key");
+		gHttpRtcProxy = new httplib::SSLServer("./Res/ssl/x2rtc.crt", "./Res/ssl/x2rtc.key");
 		if (!gHttpRtcProxy->is_valid()) {
 			return -1;
 		}
@@ -93,7 +93,7 @@ int DeInitRtcProxy()
 int InitHtmlDemos(int nPort, const char* strDir)
 {
 	if (gHttpHtml == NULL) {
-		gHttpHtml = new httplib::SSLServer("./ssl/x2rtc.crt", "./ssl/x2rtc.key");
+		gHttpHtml = new httplib::SSLServer("./Res/ssl/x2rtc.crt", "./Res/ssl/x2rtc.key");
 		if (!gHttpHtml->is_valid()) {
 			return -1;
 		}

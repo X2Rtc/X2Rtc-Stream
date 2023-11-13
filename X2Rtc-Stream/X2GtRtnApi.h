@@ -24,6 +24,16 @@
 #include <stdint.h>
 #include "X2RtcDef.h"
 
+//SN - 发流节点 - 需要上报XNode，用于节点分配
+//RN - 路由节点 - 需要转发流
+//GN - 拉流节点 - 需要上报XNode，用于节点分配
+typedef enum X2GtRtnType
+{
+	X2GRType_SN = 1,
+	X2GRType_RN = 2,
+	X2GRType_GN = 4,
+}X2GtRtnType;
+
 typedef enum X2GtRtnCode
 {
 	X2GRCode_OK = 0,
@@ -48,11 +58,15 @@ typedef enum X2GtRtnCodec
 	X2GRCodec_H265,
 	X2GRCodec_MJpeg,
 
+	X2GRCodec_VideoMax = 19,
+
 	//* Audio
 	X2GRCodec_Opus = 20,
 	X2GRCodec_Aac,
 	X2GRCodec_G711A,
 	X2GRCodec_G711U,
+
+	X2GRCodec_AudioMax = 39,
 
 	//* Data
 	X2GRCodec_Data = 100,
@@ -94,24 +108,28 @@ struct X2MediaData
 
 //typedef void(*cbX2GtRtn)();
 // Engine内部的事件回调
-typedef void(*cbX2GtRtnReportEvent)(X2GtRtnRptEvent eEventType, X2GtRtnCode eCode, const char* strInfo);
+typedef void(*cbX2GtRtnReportEvent)(X2GtRtnRptEvent eEventType, X2GtRtnCode eCode, const char*strInfo);
 // 流发布的状态变化
 typedef void(*cbX2GtRtnPublishEvent)(void* userData, X2GtRtnPubEvent eEventType, X2GtRtnPubState eState, const char* strInfo);
 //* 订阅的流，从远端发了过来
 typedef void(*cbX2GtRtnRecvStream)(void* userData, X2MediaData* pMediaData);
+//* 发布的流，音频/视频编码变更
+typedef void(*cbX2GtRtnSubscribeCodecByRemote)(void* userData, const char*strPubId, X2GtRtnCodec eCodec, bool bEnable);
+
 X2R_API int X2GtRtn_Set_cbX2GtRtnReportEvent(cbX2GtRtnReportEvent func);
 X2R_API int X2GtRtn_Set_cbX2GtRtnPublishEvent(cbX2GtRtnPublishEvent func);
 X2R_API int X2GtRtn_Set_cbX2GtRtnRecvStream(cbX2GtRtnRecvStream func);
+X2R_API int X2GtRtn_Set_cbX2GtRtnSubscribeCodecByRemote(cbX2GtRtnSubscribeCodecByRemote func);
 
 /*Sdk Engine interface*/
-X2R_API int X2GtRtn_Init(const char* strConf);
+X2R_API int X2GtRtn_Init(const char*strConf);
 X2R_API int X2GtRtn_DeInit();
 
 X2R_API int X2GtRtn_UpdateGlobalPath(const char* strGlobalPath);
 
-X2R_API int X2GtRtn_PublishStream(const char* strAppId, const char* strStreamId, const char* strResSId, void* userData);
+X2R_API int X2GtRtn_PublishStream(const char* strAppId, const char* strStreamId, const char* strResSId,void* userData);
 X2R_API int X2GtRtn_UnPublishStream(const char* strAppId, const char* strStreamId);
-X2R_API int X2GtRtn_SendPublishStream(const char* strAppId, const char* strStreamId, X2MediaData* pMediaData);
+X2R_API int X2GtRtn_SendPublishStream(const char* strAppId, const char* strStreamId, X2MediaData*pMediaData);
 
 X2R_API int X2GtRtn_SubscribeStream(const char* strAppId, const char* strStreamId, void* userData);
 X2R_API int X2GtRtn_UnSubscribeStream(const char* strAppId, const char* strStreamId);
