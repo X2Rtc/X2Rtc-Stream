@@ -42,7 +42,7 @@ To use it, you'll need to satisfy the following dependencies, and must to comply
 - [rapidjson](https://github.com/Tencent/rapidjson)
 - [spdlog](https://github.com/gabime/spdlog)
 - [srt](https://github.com/Haivision/srt)
-- [usrsctp](ttps://github.com/sctplab/usrsctp/)
+- [usrsctp](https://github.com/sctplab/usrsctp/)
 - [WsSocket](https://github.com/zaphoyd/websocketpp)
 - [ZlMediaKit](https://github.com/ZLMediaKit/ZLMediaKit) 
 - [ZlToolKit](https://github.com/ZLMediaKit/ZLToolKit)
