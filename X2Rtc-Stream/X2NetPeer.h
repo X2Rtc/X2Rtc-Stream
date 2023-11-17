@@ -162,6 +162,7 @@ private:
 
 	int64_t n_next_try_publish_time_;
 	int64_t n_last_recv_keyframe_time_;
+	int64_t n_send_data_min_gap_time_;
 	int64_t n_peer_created_time_;
 	bool b_is_publish_;			// Publish or Play stream
 	bool b_play_self_ctrl_;		// 

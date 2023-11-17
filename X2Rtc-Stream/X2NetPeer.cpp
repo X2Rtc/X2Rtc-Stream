@@ -17,6 +17,7 @@ X2NetPeer::X2NetPeer(void)
 	, x2media_suber_(NULL)
 	, n_next_try_publish_time_(0)
 	, n_last_recv_keyframe_time_(0)
+	, n_send_data_min_gap_time_(0)
 	, b_is_publish_(false)
 	, b_play_self_ctrl_(false)
 	, n_next_stats_time_(0)
@@ -423,53 +424,62 @@ void X2NetPeer::OnX2RtcTick()
 		}
 	}
 
-	while (1) {
-		x2rtc::scoped_refptr<X2CodecDataRef> x2CodecData = NULL;
-		{
-			JMutexAutoLock l(cs_list_recv_sub_data_);
-			if (list_recv_sub_data_.size() > 0) {
-				x2CodecData = list_recv_sub_data_.front();
-				list_recv_sub_data_.pop_front();
-			}
-		}
-
-		if (x2CodecData != NULL) {
-			bool bCanSend = false;
-			if (x2CodecData->bIsAudio) {
-				bCanSend = true;
-				stream_info_.eAudCodecType = x2CodecData->eCodecType;
-				stream_stats_.nAudBytes += x2CodecData->nLen;
-
-				if (stream_info_.nFirstAudInterval == 0) {
-					stream_info_.nFirstAudInterval = XGetUtcTimestamp() - n_peer_created_time_;
+	if (n_send_data_min_gap_time_ <= XGetUtcTimestamp()) {
+		n_send_data_min_gap_time_ = XGetUtcTimestamp() + 10;
+		int nSendPkt1Time = 5;
+		while (1) {
+			x2rtc::scoped_refptr<X2CodecDataRef> x2CodecData = NULL;
+			{
+				JMutexAutoLock l(cs_list_recv_sub_data_);
+				if (list_recv_sub_data_.size() > 0) {
+					x2CodecData = list_recv_sub_data_.front();
+					list_recv_sub_data_.pop_front();
 				}
 			}
-			else {
-				bCanSend = VideoCanSend(x2CodecData->nVidScaleRD, x2CodecData->bKeyframe, &vid_recv_status_);
-				if (bCanSend) {
-					//printf("Send vid rd: %d key: %d len: %d time: %u\r\n", x2CodecData->nVidScaleRD, x2CodecData->bKeyframe, x2CodecData->nLen, XGetTimestamp());
-					stream_info_.eVidCodecType = x2CodecData->eCodecType;
-					stream_stats_.nVidBytes += x2CodecData->nLen;
 
-					if (x2CodecData->bKeyframe) {
-						if (stream_info_.nFirstVidInterval == 0) {
-							stream_info_.nFirstVidInterval = XGetUtcTimestamp() - n_peer_created_time_;
-						}
+			if (x2CodecData != NULL) {
+				bool bCanSend = false;
+				if (x2CodecData->bIsAudio) {
+					bCanSend = true;
+					stream_info_.eAudCodecType = x2CodecData->eCodecType;
+					stream_stats_.nAudBytes += x2CodecData->nLen;
+
+					if (stream_info_.nFirstAudInterval == 0) {
+						stream_info_.nFirstAudInterval = XGetUtcTimestamp() - n_peer_created_time_;
 					}
 				}
 				else {
-					//printf("Drop vid rd: %d key: %d len: %d\r\n", x2CodecData->nVidScaleRD, x2CodecData->bKeyframe, x2CodecData->nLen);
+					bCanSend = VideoCanSend(x2CodecData->nVidScaleRD, x2CodecData->bKeyframe, &vid_recv_status_);
+					if (bCanSend) {
+						//printf("Send vid rd: %d key: %d len: %d time: %u\r\n", x2CodecData->nVidScaleRD, x2CodecData->bKeyframe, x2CodecData->nLen, XGetTimestamp());
+						stream_info_.eVidCodecType = x2CodecData->eCodecType;
+						stream_stats_.nVidBytes += x2CodecData->nLen;
+
+						if (x2CodecData->bKeyframe) {
+							if (stream_info_.nFirstVidInterval == 0) {
+								stream_info_.nFirstVidInterval = XGetUtcTimestamp() - n_peer_created_time_;
+							}
+						}
+					}
+					else {
+						//printf("Drop vid rd: %d key: %d len: %d\r\n", x2CodecData->nVidScaleRD, x2CodecData->bKeyframe, x2CodecData->nLen);
+					}
 				}
+
+				if (bCanSend) {
+					if (x2proto_handler_ != NULL) {
+						x2proto_handler_->MuxData(x2CodecData->eCodecType, x2CodecData->pData, x2CodecData->nLen, x2CodecData->lDts, x2CodecData->lPts, x2CodecData->nAudSeqn);
+					}
+				}
+			}
+			else {
+				break;
 			}
 
-			if (bCanSend) {
-				if (x2proto_handler_ != NULL) {
-					x2proto_handler_->MuxData(x2CodecData->eCodecType, x2CodecData->pData, x2CodecData->nLen, x2CodecData->lDts, x2CodecData->lPts, x2CodecData->nAudSeqn);
-				}
+			nSendPkt1Time--;
+			if (nSendPkt1Time <= 0) {
+				break;
 			}
-		}
-		else {
-			break;
 		}
 	}
 
