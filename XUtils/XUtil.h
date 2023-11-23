@@ -40,18 +40,19 @@ void XSleep(uint32_t ulMS);
 
 int XSplitChar(const std::string& source, char delimiter,std::vector<std::string>* fields);
 void XGetRandomStr(std::string&sRandStr, int len);
+void CreateRandomString(std::string& sRandStr, uint32_t len);
 
 int XParseHttpParam(const std::string& strParam, std::map<std::string, std::string>* mapParam);
 
 int XParseCustomParam(const std::string& strParam, std::map<std::string, std::string>* mapParam, char*arrSp, int nSp);
 
-
+bool XIsFile(std::string path);
 bool XIsDirectory(std::string path);
 bool XCreateRecursionDir(std::string path);
 std::string XGetProcessID();
 std::string XGetProcessName();
-
-bool XIsFile(std::string path);
+std::string XGetOsUUId();
+std::string XGetCurrentDirectory();
 
 bool XIsIPv4(const std::string& rStr);
 bool XIsIPv6(const std::string& rStr);

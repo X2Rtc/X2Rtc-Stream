@@ -11,6 +11,8 @@
  */
 #include "XUtil.h"
 #include <limits.h>
+#include <memory>
+#include <stdexcept>
 #ifdef _WIN32
 #include <winsock2.h>
 #include <windows.h>
@@ -18,12 +20,15 @@
 #include <sys/timeb.h>
 #include <shlwapi.h>
 #include <ws2tcpip.h>
+#include <wchar.h>
 #ifdef WIN_ARM
 #pragma comment(lib,"mmtimer.lib")
 #else
 #pragma comment(lib,"winmm.lib")
 #endif
 #pragma comment(lib,"ws2_32.lib")
+#pragma comment(lib,"Shlwapi.lib")	// __imp__PathIsDirectoryA@4
+#pragma comment(lib,"netapi32.lib") // _Netbios@4
 #ifdef DEPS_UV
 #pragma comment(lib, "IPHLPAPI.lib")
 #pragma comment(lib, "Psapi.lib")
@@ -218,6 +223,24 @@ void XGetRandomStr(std::string&sRandStr, int len) {
 		}
 	}
 }
+bool IsIp(std::string str) {
+	for (size_t i = 0; i < str.length(); i++) {
+		int c = str.c_str()[i];
+		if (c != '.' && (c < '0' || c > '9')) {
+			return false;
+		}
+	}
+	return true;
+}
+int GetValByTimeUsed(int nBytes, float fTimeUsed)
+{
+	float fVal = (float)(nBytes) / fTimeUsed;
+	return (int)fVal;
+}
+void CreateRandomString(std::string& sRandStr, uint32_t len)
+{
+	return XGetRandomStr(sRandStr, len);
+}
 
 int XParseHttpParam(const std::string& strParam, std::map<std::string, std::string>* mapParam)
 {
@@ -264,6 +287,17 @@ int XParseCustomParam(const std::string& strParam, std::map<std::string, std::st
 	return 0;
 }
 
+bool XIsFile(std::string path)
+{
+	FILE* fp = fopen(path.c_str(), "rb");
+	if (fp != NULL) {
+		fclose(fp);
+		fp = NULL;
+		return true;
+	}
+
+	return false;
+}
 
 #ifndef WIN32
 //////////////////////////////////////////////////////////////////////////
@@ -450,21 +484,87 @@ std::string XGetProcessName()
 		name = name.substr(pos + 1, std::string::npos);
 	}
 #endif
-
-
 	return name;
 }
-
-bool XIsFile(std::string path)
+#ifdef WIN32
+BOOL getBoisIDByCmd(char* lpszBaseBoard);
+#else 
+std::string exec(const char* cmd);
+#endif
+std::string XGetOsUUId()
 {
-	FILE* fp = fopen(path.c_str(), "rb");
-	if (fp != NULL) {
-		fclose(fp);
-		fp = NULL;
-		return true;
+	std::string strOsUUid;
+#ifndef WIN32
+try {
+	strOsUUid = exec("dmidecode -s system-uuid");
+}
+catch (std::exception& e) {
+}
+#else
+#if 0
+	//Generate UUID on Windows
+	GUID guid;
+	CoCreateGuid(&guid);
+	char uuidString[40];
+	sprintf(uuidString, "%08lx-%04x-%04x-%02x%02x-%02x%02x%02x%02x%02x%02x", guid.Data1, guid.Data2, guid.Data3, guid.Data4[0], guid.Data4[1], guid.Data4[2], guid.Data4[3], guid.Data4[4], guid.Data4[5], guid.Data4[6], guid.Data4[7]);
+	strOsUUid = uuidString;
+#else
+	char uuidString[1024] = { 0 };
+	if (getBoisIDByCmd(uuidString)) {
+		strOsUUid = uuidString;
 	}
+#endif
+#endif
+	if (strOsUUid.length() == 0) {
+		strOsUUid = "X2RtcUniqueId";
+	}
+	return strOsUUid;
+}
 
-	return false;
+#ifdef WIN32
+std::string ToUtf8(const wchar_t* wide, size_t len) {
+	if (len == 0)
+		return std::string();
+	int len8 = ::WideCharToMultiByte(CP_UTF8, 0, wide, static_cast<int>(len),
+		nullptr, 0, nullptr, nullptr);
+	std::string ns(len8, 0);
+	::WideCharToMultiByte(CP_UTF8, 0, wide, static_cast<int>(len), &*ns.begin(),
+		len8, nullptr, nullptr);
+	return ns;
+}
+#endif
+
+std::string XGetCurrentDirectory()
+{
+#ifndef WIN32
+	char buffer[PATH_MAX];
+	char* path = getcwd(buffer, PATH_MAX);
+
+	if (!path) {
+		//RTC_LOG_ERR(LS_ERROR) << "getcwd() failed";
+		return "";  // returns empty pathname
+	}
+	return path;
+#else
+	int path_len = 0;
+	std::unique_ptr<wchar_t[]> path;
+	do {
+		int needed = ::GetCurrentDirectoryW(path_len, path.get());
+		if (needed == 0) {
+			// Error.
+			//RTC_LOG(LS_ERROR) << "::GetCurrentDirectory() failed";
+			return "";  // returns empty pathname
+		}
+		if (needed <= path_len) {
+			// It wrote successfully.
+			break;
+		}
+		// Else need to re-alloc for "needed".
+		path.reset(new wchar_t[needed]);
+		path_len = needed;
+	} while (true);
+	return ToUtf8(path.get(), wcslen(path.get()));
+#endif
 }
 
 bool XIsIPv4(const std::string& rStr) {
@@ -576,6 +676,34 @@ int64_t av_rescale_rnd(int64_t a, int64_t b, int64_t c, int rnd)
 int64_t X2AvRescale(int64_t a, int64_t b, int64_t c)
 {
 	return av_rescale_rnd(a, b, c, AV_ROUND_NEAR_INF);
+}
+
+int SplitChar(const std::string& source, char delimiter,
+	std::vector<std::string>* fields) {
+	fields->clear();
+	size_t last = 0;
+	for (size_t i = 0; i < source.length(); ++i) {
+		if (source[i] == delimiter) {
+			fields->push_back(source.substr(last, i - last));
+			last = i + 1;
+		}
+	}
+	fields->push_back(source.substr(last, source.length() - last));
+	return fields->size();
+}
+
+std::string ReplaceStrOnce(const std::string& strSrc, const std::string& strFind, const std::string& strReplace)
+{
+	std::string strStr;
+	std::string::size_type pos;
+	std::string strCopy = strSrc;
+	if ((pos = strCopy.find(strFind)) != std::string::npos) {
+		strStr = strCopy.replace(pos, strFind.length(), strReplace.c_str());
+	}
+	else {
+		strStr = strCopy;
+	}
+	return strStr;
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -789,3 +917,133 @@ bool X2IsH264BFrame(const char* pData, int nLen)
 	}
 	return false;
 }
+
+#ifdef WIN32
+BOOL getBoisIDByCmd(char* lpszBaseBoard) {
+	const long MAX_COMMAND_SIZE = 10000; // 命令行输出缓冲大小	
+
+#ifndef UNICODE
+	CHAR szFetCmd[] = "wmic csproduct get UUID"; // 获取BOIS命令行	
+#else
+	WCHAR szFetCmd[] = L"wmic csproduct get UUID"; // 获取BOIS命令行	
+#endif
+	const std::string strEnSearch = "UUID"; // 主板序列号的前导信息
+
+	BOOL   bret = FALSE;
+	HANDLE hReadPipe = NULL; //读取管道
+	HANDLE hWritePipe = NULL; //写入管道	
+	PROCESS_INFORMATION pi; //进程信息	
+	memset(&pi, 0, sizeof(pi));
+	STARTUPINFO	si;	//控制命令行窗口信息
+	memset(&si, 0, sizeof(si));
+	SECURITY_ATTRIBUTES sa; //安全属性
+	memset(&sa, 0, sizeof(sa));
+
+	char szBuffer[MAX_COMMAND_SIZE + 1] = { 0 }; // 放置命令行结果的输出缓冲区
+	std::string	strBuffer;
+	unsigned long count = 0;
+	long ipos = 0;
+
+	pi.hProcess = NULL;
+	pi.hThread = NULL;
+	si.cb = sizeof(STARTUPINFO);
+	sa.nLength = sizeof(SECURITY_ATTRIBUTES);
+	sa.lpSecurityDescriptor = NULL;
+	sa.bInheritHandle = TRUE;
+
+	//1.创建管道
+	bret = CreatePipe(&hReadPipe, &hWritePipe, &sa, 0);
+	if (!bret) {
+		CloseHandle(hWritePipe);
+		CloseHandle(hReadPipe);
+
+		return bret;
+	}
+
+	//2.设置命令行窗口的信息为指定的读写管道
+	GetStartupInfo(&si);
+	si.hStdError = hWritePipe;
+	si.hStdOutput = hWritePipe;
+	si.wShowWindow = SW_HIDE; //隐藏命令行窗口
+	si.dwFlags = STARTF_USESHOWWINDOW | STARTF_USESTDHANDLES;
+
+	//3.创建获取命令行的进程
+	bret = CreateProcess(NULL, szFetCmd, NULL, NULL, TRUE, 0, NULL, NULL, &si, &pi);
+	if (!bret) {
+		CloseHandle(hWritePipe);
+		CloseHandle(hReadPipe);
+		CloseHandle(pi.hProcess);
+		CloseHandle(pi.hThread);
+
+		return bret;
+	}
+
+	//4.读取返回的数据
+	WaitForSingleObject(pi.hProcess, 200);
+	bret = ReadFile(hReadPipe, szBuffer, MAX_COMMAND_SIZE, &count, 0);
+	if (!bret) {
+		CloseHandle(hWritePipe);
+		CloseHandle(hReadPipe);
+		CloseHandle(pi.hProcess);
+		CloseHandle(pi.hThread);
+
+		return bret;
+	}
+
+	//5.查找主板ID
+	bret = FALSE;
+	strBuffer = szBuffer;
+	ipos = strBuffer.find(strEnSearch);
+
+	if (ipos < 0) { // 没有找到
+		CloseHandle(hWritePipe);
+		CloseHandle(hReadPipe);
+		CloseHandle(pi.hProcess);
+		CloseHandle(pi.hThread);
+
+		return bret;
+	}
+	else {
+		strBuffer = strBuffer.substr(ipos + strEnSearch.length());
+	}
+
+	memset(szBuffer, 0x00, sizeof(szBuffer));
+	strcpy_s(szBuffer, strBuffer.c_str());
+
+	//去掉中间的空格 \r \n
+	int j = 0;
+	for (int i = 0; i < strlen(szBuffer); i++) {
+		if (szBuffer[i] != ' ' && szBuffer[i] != '\n' && szBuffer[i] != '\r') {
+			lpszBaseBoard[j] = szBuffer[i];
+			j++;
+		}
+	}
+
+	CloseHandle(hWritePipe);
+	CloseHandle(hReadPipe);
+	CloseHandle(pi.hProcess);
+	CloseHandle(pi.hThread);
+
+	return TRUE;
+}
+#endif
+
+#ifndef WIN32
+std::string exec(const char* cmd) {
+	char buffer[128];
+	std::string result = "";
+	FILE* pipe = popen(cmd, "r");
+	if (!pipe) throw std::runtime_error("popen() failed!");
+	try {
+		while (fgets(buffer, sizeof(buffer), pipe) != NULL) {
+			result += buffer;
+		}
+	}
+	catch (...) {
+		pclose(pipe);
+		throw;
+	}
+	pclose(pipe);
+	return result;
+}
+#endif
