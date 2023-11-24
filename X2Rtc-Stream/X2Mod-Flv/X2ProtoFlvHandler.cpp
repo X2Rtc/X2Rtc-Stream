@@ -56,7 +56,7 @@ void X2ProtoFlvHandler::RecvDataFromNetwork(int nDataType, const uint8_t* pData,
 void X2ProtoFlvHandler::Close()
 {
 	if (x2http_session_ != NULL) {
-		x2http_session_->stop();
+		//x2http_session_->stop();	// Maybe crash
 		x2http_session_->Close();
 		x2http_session_ = NULL;
 	}
@@ -66,7 +66,19 @@ void X2ProtoFlvHandler::Close()
 void X2ProtoFlvHandler::OnPlay(const char* app, const char* stream, const char* args)
 {
 	if (cb_listener_ != NULL) {
-		cb_listener_->OnX2ProtoHandlerPlay(app, stream, "", args);
+		char strNewArgs[1024] = { 0 };
+		if (args == NULL || strlen(args) == 0) {
+			sprintf(strNewArgs, "cacheGop=1");
+		}
+		else {
+			if (strstr(args, "cacheGop") == NULL) {
+				sprintf(strNewArgs, "%s&cacheGop=1", args);
+			}
+			else {
+				//@Eric - 20231117 - Param: cacheGop has been in the url, don't do anything.
+			}
+		}
+		cb_listener_->OnX2ProtoHandlerPlay(app, stream, "", strNewArgs);
 
 		cb_listener_->OnX2ProtoHandlerSetPlayCodecType(X2Codec_AAC, X2Codec_None);
 	}

@@ -24,9 +24,9 @@
 #include <stdint.h>
 #include "X2RtcDef.h"
 
-//SN - 发流节点 - 需要上报XNode，用于节点分配
-//RN - 路由节点 - 需要转发流
-//GN - 拉流节点 - 需要上报XNode，用于节点分配
+//SN - 发流节点 - 只收流，会分配全局的路由线路
+//RN - 路由节点 - 用于转发流从A-Region到下一个B-Region
+//GN - 拉流节点 - 只拉流，主要用于流分发给不同协议的客户端
 typedef enum X2GtRtnType
 {
 	X2GRType_SN = 1,
@@ -39,14 +39,21 @@ typedef enum X2GtRtnCode
 	X2GRCode_OK = 0,
 	X2GRCode_NotInited,
 	X2GRCode_NotOnline,
+	X2GRCode_NotAuthed,
 	X2GRCode_ErrParameters,
 	X2GRCode_ErrInternal,
 	X2GRCode_HasExsited,
+	X2GRCode_NotSNode,
+	X2GRCode_PubNotAtLocal,
 
-	X2GRCode_LicenceInvalid = 100,
+	X2GRCode_LicenseInvalid = 100,
+	X2GRCode_LicenceFailed,
 	X2GRCode_LicenceTimout,
-	X2GRCode_LicenceLimited,
-	X2GRCode_LicenceError,
+	X2GRCode_LicenceOemInvalid,
+	X2GRCode_LicenceExhaust,
+	X2GRCode_LicenceExpired,
+	X2GRCode_LicenseInvalidUtcTime,
+	X2GRCode_LicenseUnknowErr,
 
 	X2GRCode_Unknow = 1000,
 }X2GtRtnCode;
@@ -74,8 +81,9 @@ typedef enum X2GtRtnCodec
 
 typedef enum X2GtRtnRptEvent
 {
-	X2GREvent_VertifyLicense = 0,
-	X2GREvent_OutLog,
+	X2GREvent_VertifyLicense = 0,	//鉴权信息
+	X2GREvent_OutLog,				//内部日志输出
+	X2GREvent_RtnStats,				//媒体流的统计
 }X2GtRtnRptEvent;
 
 typedef enum X2GtRtnPubState
@@ -92,6 +100,8 @@ typedef enum X2GtRtnPubEvent
 	X2GRPubEvent_OK = 0,
 	X2GRPubEvent_Failed,
 	X2GRPubEvent_Closed,
+
+	X2GRPubEvent_RtnPath = 10,		//媒体流的路由路径
 }X2GtRtnPubEvent;
 
 struct X2MediaData
@@ -108,31 +118,35 @@ struct X2MediaData
 
 //typedef void(*cbX2GtRtn)();
 // Engine内部的事件回调
-typedef void(*cbX2GtRtnReportEvent)(X2GtRtnRptEvent eEventType, X2GtRtnCode eCode, const char*strInfo);
+typedef void(*cbX2GtRtnReportEvent)(X2GtRtnRptEvent eEventType, X2GtRtnCode eCode, const char* strInfo);
 // 流发布的状态变化
 typedef void(*cbX2GtRtnPublishEvent)(void* userData, X2GtRtnPubEvent eEventType, X2GtRtnPubState eState, const char* strInfo);
 //* 订阅的流，从远端发了过来
 typedef void(*cbX2GtRtnRecvStream)(void* userData, X2MediaData* pMediaData);
 //* 发布的流，音频/视频编码变更
-typedef void(*cbX2GtRtnSubscribeCodecByRemote)(void* userData, const char*strPubId, X2GtRtnCodec eCodec, bool bEnable);
+typedef void(*cbX2GtRtnSubscribeCodecByRemote)(void* userData, const char* strPubId, X2GtRtnCodec eCodec, bool bEnable);
+//* 发布的流，大中小流变更
+typedef void(*cbX2GtRtnSubscribeStreamByRemote)(void* userData, const char* strPubId, int nStreamId, bool bEnable);
 
 X2R_API int X2GtRtn_Set_cbX2GtRtnReportEvent(cbX2GtRtnReportEvent func);
 X2R_API int X2GtRtn_Set_cbX2GtRtnPublishEvent(cbX2GtRtnPublishEvent func);
 X2R_API int X2GtRtn_Set_cbX2GtRtnRecvStream(cbX2GtRtnRecvStream func);
 X2R_API int X2GtRtn_Set_cbX2GtRtnSubscribeCodecByRemote(cbX2GtRtnSubscribeCodecByRemote func);
+X2R_API int X2GtRtn_Set_cbX2GtRtnSubscribeStreamByRemote(cbX2GtRtnSubscribeStreamByRemote func);
 
 /*Sdk Engine interface*/
-X2R_API int X2GtRtn_Init(const char*strConf);
+X2R_API int X2GtRtn_Init(const char* strConf);
 X2R_API int X2GtRtn_DeInit();
 
 X2R_API int X2GtRtn_UpdateGlobalPath(const char* strGlobalPath);
 
-X2R_API int X2GtRtn_PublishStream(const char* strAppId, const char* strStreamId, const char* strResSId,void* userData);
+X2R_API int X2GtRtn_PublishStream(const char* strAppId, const char* strStreamId, const char* strResSId, void* userData);
 X2R_API int X2GtRtn_UnPublishStream(const char* strAppId, const char* strStreamId);
-X2R_API int X2GtRtn_SendPublishStream(const char* strAppId, const char* strStreamId, X2MediaData*pMediaData);
+X2R_API int X2GtRtn_SendPublishStream(const char* strAppId, const char* strStreamId, X2MediaData* pMediaData);
 
 X2R_API int X2GtRtn_SubscribeStream(const char* strAppId, const char* strStreamId, void* userData);
 X2R_API int X2GtRtn_UnSubscribeStream(const char* strAppId, const char* strStreamId);
 X2R_API int X2GtRtn_SubscribeAudioCodec(const char* strAppId, const char* strStreamId, X2GtRtnCodec eCType, bool bEnable);
+X2R_API int X2GtRtn_SubscribeVideoStream(const char* strAppId, const char* strStreamId, int nId, bool bEnable);
 
 #endif	// __X2_GT_RTN_API_H__
