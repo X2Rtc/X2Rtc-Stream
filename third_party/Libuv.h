@@ -17,7 +17,8 @@ struct Loop : uv_loop_t {
 
     void destroy() {
         if (this != uv_default_loop()) {
-            uv_loop_delete(this);
+            //uv_loop_delete(this); //@Eric - 20231206 - uv_loop_delete is DEPRECATED. Users should use uv_loop_close and free the memory manually instead.
+            delete this;
         }
     }
 
