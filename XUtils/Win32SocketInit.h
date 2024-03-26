@@ -24,6 +24,7 @@
 
 #ifdef _WIN32
 #include <Windows.h>
+#include <WinSock2.h>
 #endif
 
 namespace x2rtc {

@@ -36,6 +36,7 @@ uint32_t XGetTimeSecond();
 int64_t XGetUtcTimestamp(void);
 uint16_t XGetLastSequence(uint16_t usSequence1,uint16_t usSequence2);
 uint32_t XGenerateSSRC(void);
+uint32_t XGetRandomNum();
 void XSleep(uint32_t ulMS);
 
 int XSplitChar(const std::string& source, char delimiter,std::vector<std::string>* fields);

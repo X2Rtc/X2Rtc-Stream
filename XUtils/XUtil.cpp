@@ -168,6 +168,19 @@ uint32_t XGenerateSSRC(void)
 #endif
 }
 
+uint32_t XGetRandomNum()
+{//∫¡√Î
+#ifdef _WIN32
+	struct timeb time_seed;
+	ftime(&time_seed);
+	srand(time_seed.time * 1000 + time_seed.millitm);
+#else
+	srand((unsigned)time(NULL));
+#endif
+
+	return rand();
+}
+
 void XSleep(uint32_t ulMS)
 {
 #ifdef _WIN32
@@ -517,6 +530,12 @@ catch (std::exception& e) {
 #endif
 	if (strOsUUid.length() == 0) {
 		strOsUUid = "X2RtcUniqueId";
+	}
+	else {
+		size_t l = strOsUUid.length();
+		if (l && strOsUUid.c_str()[l - 1] == '\n') {
+			((char*)strOsUUid.c_str())[l - 1] = '\0';
+		}
 	}
 	return strOsUUid;
 }
